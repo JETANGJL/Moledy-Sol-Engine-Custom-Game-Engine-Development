@@ -86,9 +86,6 @@ Moledy was built using our **custom Sol Engine**, featuring an in-house level ed
 - **Hierarchy** – manage entities in scene  
 - **Inspector** – add/configure components  
 - **Scene Window** – 2D/3D view, play/pause, tile editing
-
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c7deddcf-f478-4f31-af1c-574d9887e6e3" />
-
 - **File & Asset Browsers** – drag & drop textures, audio, shaders
 
 <img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/c7deddcf-f478-4f31-af1c-574d9887e6e3" />
