@@ -88,7 +88,8 @@ Moledy was built using our **custom Sol Engine**, featuring an in-house level ed
 - **Scene Window** – 2D/3D view, play/pause, tile editing
 - **File & Asset Browsers** – drag & drop textures, audio, shaders
 
-<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/c7deddcf-f478-4f31-af1c-574d9887e6e3" />
+<img width="359" height="306" alt="image" src="https://github.com/user-attachments/assets/83c107d1-f3c9-43e4-b629-7f473ed9cd82" />
+
 
 - **Debug Log** – FPS & resource monitoring  
 
@@ -101,7 +102,8 @@ Moledy was built using our **custom Sol Engine**, featuring an in-house level ed
 
 - **Particle Editor** with live preview & JSON saving
 
-<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/c7deddcf-f478-4f31-af1c-574d9887e6e3" />
+<img width="298" height="528" alt="image" src="https://github.com/user-attachments/assets/f6abc2fb-b5e9-42b9-a51a-c4971aeeb1cc" />
+
 
 
 ---
