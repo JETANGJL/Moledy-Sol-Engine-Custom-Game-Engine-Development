@@ -1,4 +1,4 @@
-<img width="453" height="372" alt="image" src="https://github.com/user-attachments/assets/31af5753-bb1a-4089-a5fa-5918a78899b6" /># 🕹️ Moledy  
+# 🕹️ Moledy  
 
 ![Moledy Banner](assets/moledy-banner.gif) <!-- replace with your GIF banner or screenshot -->  
 
