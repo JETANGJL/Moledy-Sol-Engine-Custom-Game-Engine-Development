@@ -7,8 +7,8 @@ You play as a baby mole separated from your family — dig, dash, and climb your
 
 ---
 
-## 👥 Team Moledy (Weekend Warriors)
-- **Jet Ang Jie Le** – Debugging & Asset Management  
+## 👥 Team Moledy
+- **Jet Ang Jie Le** – Data Engineer / UI / Debugging  
 - **Muhammad Dzulhafiz Bin Abdul Rahim** – Graphics / UI  
 - **Xavier Lye Pin Liang** – Architecture, SOLs Tech Lead  
 - **Chong Joey Jing Wen** – Level Editor / UI  
@@ -93,7 +93,7 @@ Moledy was built using our **custom Sol Engine**, featuring an in-house level ed
 - **Guizmos** (`Q` off, `W` translate, `E` scale, `R` rotate)  
 - **Particle Editor** with live preview & JSON saving  
 
-<img width="940" height="598" alt="image" src="https://github.com/user-attachments/assets/c7deddcf-f478-4f31-af1c-574d9887e6e3" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c7deddcf-f478-4f31-af1c-574d9887e6e3" />
 
 
 ---
@@ -107,23 +107,11 @@ Moledy was built using our **custom Sol Engine**, featuring an in-house level ed
 - **Physics**: Rigidbody + collisions  
 - **Libraries Used**: FMOD, ImGui, GLEW, GLFW, GLM, stb, spdlog  
 
-📑 Full docs:  
-- [Editor Guide](Docs/EditorGuide.md)  
-- [Technical Design Document (TDD)](Docs/TDD.md)  
 
 ---
 
 ## 📸 Screenshots / Demo
 *(Insert gameplay screenshots, editor photos, or a GIF banner here.)*  
-
----
-
-## 📜 Credits
-Faculty & Advisors:  
-- Prasanna Ghali, Ellie Hosry, Cheng Ding Xiang, Gerald Wong Han Feng  
-
-Special Thanks:  
-- Lin Xin, Devin Tan Rui Hao, Tang Leejed  
 
 ---
 
