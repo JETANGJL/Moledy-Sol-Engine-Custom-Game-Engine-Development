@@ -125,5 +125,10 @@ Moledy was built using our **custom Sol Engine**, featuring an in-house level ed
 
 ---
 
+⚠️ **Note on Source Code Availability**  
+Due to academic and licensing sensitivities, the source code for *Moledy / Sol Engine* is not publicly available in this repository.  
+This portfolio showcases the **design documentation, technical breakdowns, and gameplay highlights** to demonstrate my contributions in engine development, debugging, asset management, and production. Please contact me directly if you’d like to discuss the technical details further.
+
+
 © 2023 DigiPen Institute of Technology Singapore.  
 FMOD Sound System © FireLight Technologies Pty Ltd (1998–2020).  
