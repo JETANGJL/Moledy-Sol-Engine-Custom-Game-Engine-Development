@@ -1,4 +1,4 @@
-# 🕹️ Moledy  
+<img width="453" height="372" alt="image" src="https://github.com/user-attachments/assets/31af5753-bb1a-4089-a5fa-5918a78899b6" /># 🕹️ Moledy  
 
 ![Moledy Banner](assets/moledy-banner.gif) <!-- replace with your GIF banner or screenshot -->  
 
@@ -80,20 +80,31 @@ You play as a baby mole separated from your family — dig, dash, and climb your
 ## 🛠️ Sol Engine Editor
 Moledy was built using our **custom Sol Engine**, featuring an in-house level editor.  
 
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c7deddcf-f478-4f31-af1c-574d9887e6e3" />
+
 ### Core Panels
 - **Hierarchy** – manage entities in scene  
 - **Inspector** – add/configure components  
-- **Scene Window** – 2D/3D view, play/pause, tile editing  
-- **File & Asset Browsers** – drag & drop textures, audio, shaders  
+- **Scene Window** – 2D/3D view, play/pause, tile editing
+
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c7deddcf-f478-4f31-af1c-574d9887e6e3" />
+
+- **File & Asset Browsers** – drag & drop textures, audio, shaders
+
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/c7deddcf-f478-4f31-af1c-574d9887e6e3" />
+
 - **Debug Log** – FPS & resource monitoring  
 
 ### Tools
 - **Tile Map Editor** with snapping and ghost previews  
 - **Layering System** for entity order control  
-- **Guizmos** (`Q` off, `W` translate, `E` scale, `R` rotate)  
-- **Particle Editor** with live preview & JSON saving  
+- **Guizmos** (`Q` off, `W` translate, `E` scale, `R` rotate)
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c7deddcf-f478-4f31-af1c-574d9887e6e3" />
+<img width="453" height="372" alt="image" src="https://github.com/user-attachments/assets/233dcdbd-b15f-433f-be91-2205623e6f2f" />
+
+- **Particle Editor** with live preview & JSON saving
+
+<img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/c7deddcf-f478-4f31-af1c-574d9887e6e3" />
 
 
 ---
