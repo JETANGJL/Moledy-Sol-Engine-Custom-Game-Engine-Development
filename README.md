@@ -1,6 +1,6 @@
 # 🕹️ Moledy  
 
-![Moledy Banner](assets/moledy-banner.gif) <!-- replace with your GIF banner or screenshot -->  
+![Moledy Banner](Moledy-banner.gif) <!-- replace with your GIF banner or screenshot -->  
 
 **Moledy** is a **movement-focused, exploration-centric arcade platformer** built on our **custom Sol Engine**.  
 You play as a baby mole separated from your family — dig, dash, and climb your way home while evading enemies and discovering hidden gems.  
