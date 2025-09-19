@@ -1,0 +1,4559 @@
+{
+    "Layers": [
+        {
+            "Layer_id": 0,
+            "Layer_state": 0,
+            "Layer_name": "menu",
+            "Layer_pos": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Layer_id": 1,
+            "Layer_state": 1,
+            "Layer_name": "settings",
+            "Layer_pos": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Layer_id": 2,
+            "Layer_state": 0,
+            "Layer_name": "BGM",
+            "Layer_pos": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Layer_id": 3,
+            "Layer_state": 0,
+            "Layer_name": "clouds",
+            "Layer_pos": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Layer_id": 4,
+            "Layer_state": 1,
+            "Layer_name": "Quit_Confirmation",
+            "Layer_pos": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Layer_id": 5,
+            "Layer_state": 0,
+            "Layer_name": "camera",
+            "Layer_pos": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Layer_id": 6,
+            "Layer_state": 1,
+            "Layer_name": "Reset_Confirmation",
+            "Layer_pos": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "Entities": [
+        {
+            "CameraComponent": {
+                "m_Active": true,
+                "m_SmoothDampActive": false,
+                "m_CameraClamping": false,
+                "m_CameraClampBtmL": [
+                    0.0,
+                    0.0
+                ],
+                "m_CameraClampTopR": [
+                    0.0,
+                    0.0
+                ],
+                "Identity": 1,
+                "Layer": 0,
+                "CameraType": 0,
+                "m_Fov": 45.0,
+                "m_PerspectiveNear": 0.0,
+                "m_PerspectiveFar": 0.0,
+                "m_OrthoFar": 10000.0,
+                "m_OrthoNear": -100.0,
+                "m_OrthoSize": 1300.0,
+                "m_CameraDistance": 10.0,
+                "m_SoothingTime": 0.25,
+                "velocity": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Background"
+            },
+            "TransformComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "Transform": [
+                    -9.168914794921875,
+                    7.6409454345703125,
+                    -347.2130432128906
+                ],
+                "Scale": [
+                    2665.304443359375,
+                    1407.9071044921875
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 9224384073630177875,
+                "Width": 576.0,
+                "Height": 320.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Play Background"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 8550191236101542225,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 0.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    865.0,
+                    346.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    240.92152404785156,
+                    60.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "Cutscene_1",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 1,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    5
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "SFX_UI_select2": {
+                            "UUID": 11007834191666460741,
+                            "AudioKey": "SFX_UI_select2",
+                            "Loop": false,
+                            "Volume": 0.4110100269317627,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_select1": {
+                            "UUID": 15867703115824600222,
+                            "AudioKey": "SFX_UI_select1",
+                            "Loop": false,
+                            "Volume": 0.8284299969673157,
+                            "Timerdelay": 210
+                        }
+                    }
+                ]
+            },
+            "UISelectorComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 10958238532397943822,
+                "Width": 8.0,
+                "Height": 8.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_XOffset": -130.0,
+                "m_YOffset": 0.0,
+                "m_Scale": [
+                    25.0,
+                    25.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Settings Background"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 16310906174768550329,
+                "Width": 1920.0,
+                "Height": 1080.0,
+                "Alpha": 0.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    870.0,
+                    492.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    180.0,
+                    60.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 3,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 3,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    5,
+                    20
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "SFX_UI_select2": {
+                            "UUID": 11007834191666460741,
+                            "AudioKey": "SFX_UI_select2",
+                            "Loop": false,
+                            "Volume": 0.3891400098800659,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_select1": {
+                            "UUID": 15867703115824600222,
+                            "AudioKey": "SFX_UI_select1",
+                            "Loop": false,
+                            "Volume": 0.8039199709892273,
+                            "Timerdelay": 210
+                        }
+                    }
+                ]
+            },
+            "UISelectorComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 10958238532397943822,
+                "Width": 8.0,
+                "Height": 8.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_XOffset": -90.0,
+                "m_YOffset": 0.0,
+                "m_Scale": [
+                    25.0,
+                    25.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Play Button"
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    668.0499877929688,
+                    347.1390686035156,
+                    -1.0
+                ],
+                "m_Scale": [
+                    180.64637756347656,
+                    75.8039779663086
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "LIVE_Level_1",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "FPS"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 12347630404513237132,
+                "Text": "",
+                "Color": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.11100000143051147,
+                "m_Buffer": 0.5360000133514404
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    192.7784423828125,
+                    84.46505737304688,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.75,
+                    0.75
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": true,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "StartGame"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "Start Game",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.20000000298023224,
+                "m_Buffer": 0.5
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    760.0,
+                    360.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    1.0,
+                    1.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "Cutscene_1",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Tutorial"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "Tutorial",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.20000000298023224,
+                "m_Buffer": 0.5
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    795.0,
+                    430.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    1.0,
+                    1.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "LIVE_Tutorial_Walk_1",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "settings"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "Settings",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.20000000298023224,
+                "m_Buffer": 0.5
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    797.0,
+                    503.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    1.0,
+                    1.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "LIVE_Level_1",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 3,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Best Time_Right"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "BEST TIME",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.47999998927116394,
+                "m_Buffer": 0.4230000078678131
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    200.0,
+                    70.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": true,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Timer"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "TIMEReerwer",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.10300000011920929,
+                "m_Buffer": 0.6380000114440918
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    193.0,
+                    125.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    1.0,
+                    1.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 2,
+                "UI_Button_Type": 0,
+                "m_TopRight": true,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Leaderboard_Whitebar"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 0,
+                "Width": 0.0,
+                "Height": 0.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    469.99951171875,
+                    0.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    10.76357364654541,
+                    8000.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 1,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Logo"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 14004937454503520393,
+                "Width": 730.0,
+                "Height": 310.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    870.0,
+                    227.30377197265625,
+                    -1.0
+                ],
+                "m_Scale": [
+                    333.3059387207031,
+                    139.68817138671875
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Leaderboard_BG"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 0,
+                "Width": 0.0,
+                "Height": 0.0,
+                "Alpha": 0.5,
+                "Color": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    0.0,
+                    293.001220703125,
+                    -1.0
+                ],
+                "m_Scale": [
+                    930.0,
+                    20622.314453125
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 1,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Best Time_Left"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "BEST TIME",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.27399998903274536,
+                "m_Buffer": 0.6539999842643738
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    120.0,
+                    80.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    1.0,
+                    1.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Tutorial Background"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 8550191236101542225,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 0.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    867.0,
+                    415.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    170.0,
+                    60.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "LIVE_Tutorial_Walk_1",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 2,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    5
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "SFX_UI_select2": {
+                            "UUID": 11007834191666460741,
+                            "AudioKey": "SFX_UI_select2",
+                            "Loop": false,
+                            "Volume": 0.40724000334739685,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_select1": {
+                            "UUID": 15867703115824600222,
+                            "AudioKey": "SFX_UI_select1",
+                            "Loop": false,
+                            "Volume": 0.8088200092315674,
+                            "Timerdelay": 210
+                        }
+                    }
+                ]
+            },
+            "UISelectorComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 10958238532397943822,
+                "Width": 8.0,
+                "Height": 8.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_XOffset": -90.0,
+                "m_YOffset": 0.0,
+                "m_Scale": [
+                    25.0,
+                    25.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Pos"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "Pos",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.1550000011920929,
+                "m_Buffer": 0.5270000100135803
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    57.0,
+                    152.99996948242188,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.752988874912262,
+                    0.75
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Name"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "Name",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.6119999885559082,
+                "m_Buffer": 0.4580000042915344
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    155.0,
+                    152.99989318847656,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.75,
+                    0.75
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Time"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "Time",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.32199999690055847,
+                "m_Buffer": 0.5070000290870667
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    325.0,
+                    156.0000457763672,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.75,
+                    0.75
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "1st"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "1st",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.29600000381469727,
+                "m_Buffer": 0.6460000276565552
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    60.0,
+                    222.99996948242188,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8799999952316284
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "2nd"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "2nd",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.2639999985694885,
+                "m_Buffer": 0.6110000014305115
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    60.0,
+                    292.0003356933594,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "1st Name"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "---",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.2370000034570694,
+                "m_Buffer": 0.699999988079071
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    170.0,
+                    225.00010681152344,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    10
+                ]
+            },
+            "LeaderBoardComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "LeaderBoardIndex": 1
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "2nd Name"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "---",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.22699999809265137,
+                "m_Buffer": 0.7229999899864197
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    170.0,
+                    292.0000305175781,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    10
+                ]
+            },
+            "LeaderBoardComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "LeaderBoardIndex": 2
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "1st Time"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "TIMEReerwer",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.19499999284744263,
+                "m_Buffer": 0.5059999823570251
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    270.0,
+                    223.9999542236328,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 2,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    9
+                ]
+            },
+            "LeaderBoardComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "LeaderBoardIndex": 1
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "2nd Time"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "TIMEReerwer",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.25999999046325684,
+                "m_Buffer": 0.5230000019073486
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    270.0,
+                    291.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8455719947814941,
+                    0.8455719947814941
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 2,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    9
+                ]
+            },
+            "LeaderBoardComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "LeaderBoardIndex": 2
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "3rd"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "3rd",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.29100000858306885,
+                "m_Buffer": 0.46700000762939453
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    60.0,
+                    357.99993896484375,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "3rd Name"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "---",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.3070000112056732,
+                "m_Buffer": 0.4970000088214874
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    170.0,
+                    355.9999694824219,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    10
+                ]
+            },
+            "LeaderBoardComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "LeaderBoardIndex": 3
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "3rd Time"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "TIMEReerwer",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.382999986410141,
+                "m_Buffer": 0.503000020980835
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    270.0,
+                    356.9999694824219,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 2,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    9
+                ]
+            },
+            "LeaderBoardComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "LeaderBoardIndex": 3
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "4th"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "4th",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.31200000643730164,
+                "m_Buffer": 0.6060000061988831
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    60.0,
+                    425.99993896484375,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.849056601524353
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "4th Name"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "---",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4480000138282776,
+                "m_Buffer": 0.39100000262260437
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    170.0,
+                    557.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    10
+                ]
+            },
+            "LeaderBoardComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "LeaderBoardIndex": 6
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "4th Time"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "TIMEReerwer",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4480000138282776,
+                "m_Buffer": 0.5
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    270.0,
+                    422.9999084472656,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 2,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    9
+                ]
+            },
+            "LeaderBoardComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "LeaderBoardIndex": 4
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Mountain_16"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    63.84867858886719,
+                    -432.7527160644531,
+                    0.0
+                ],
+                "Scale": [
+                    2756.568603515625,
+                    1137.9693603515625
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 8874505801485997274,
+                "Width": 708.0,
+                "Height": 321.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Sun_16"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    -452.26177978515625,
+                    -299.734130859375,
+                    -130.4316864013672
+                ],
+                "Scale": [
+                    877.9107666015625,
+                    924.1171264648438
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 14551243001203690702,
+                "Width": 175.0,
+                "Height": 175.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Orange_16"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    340.2477722167969,
+                    -324.29217529296875,
+                    -19.435697555541992
+                ],
+                "Scale": [
+                    1658.30126953125,
+                    463.4576110839844
+                ],
+                "Rotation": 0.7452240586280823
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 11230372271145108448,
+                "Width": 756.0,
+                "Height": 281.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Red_16"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    893.8801879882813,
+                    -322.7930603027344,
+                    -21.32805633544922
+                ],
+                "Scale": [
+                    1377.5120849609375,
+                    681.4483032226563
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 2181679480148249352,
+                "Width": 739.0,
+                "Height": 318.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "5th Time"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "TIMEReerwer",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.11999999731779099,
+                "m_Buffer": 0.4059999883174896
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    270.0,
+                    560.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 2,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    9
+                ]
+            },
+            "LeaderBoardComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "LeaderBoardIndex": 6
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "5th Name"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "---",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.25200000405311584,
+                "m_Buffer": 0.382999986410141
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    170.0,
+                    628.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    10
+                ]
+            },
+            "LeaderBoardComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "LeaderBoardIndex": 7
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Credits"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "CREDITS",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.11100000143051147,
+                "m_Buffer": 0.5360000133514404
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    175.0,
+                    50.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.75,
+                    0.75
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "Credits",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": true,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "5th"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "7th",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.32600000500679016,
+                "m_Buffer": 0.5709999799728394
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    60.0,
+                    627.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "5th"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "6th",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.32600000500679016,
+                "m_Buffer": 0.5709999799728394
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    60.0,
+                    558.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "5th Time"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "TIMEReerwer",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.11999999731779099,
+                "m_Buffer": 0.4059999883174896
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    270.0,
+                    629.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 2,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    9
+                ]
+            },
+            "LeaderBoardComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "LeaderBoardIndex": 7
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "5th"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "7th",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.32600000500679016,
+                "m_Buffer": 0.5709999799728394
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    60.0,
+                    627.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "4th Name"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "---",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4480000138282776,
+                "m_Buffer": 0.39100000262260437
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    170.0,
+                    489.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    10
+                ]
+            },
+            "LeaderBoardComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "LeaderBoardIndex": 5
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "4th Name"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "---",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4480000138282776,
+                "m_Buffer": 0.39100000262260437
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    170.0,
+                    421.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    10
+                ]
+            },
+            "LeaderBoardComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "LeaderBoardIndex": 4
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 3,
+                "Name": "clouds"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 3,
+                "Transform": [
+                    223.17868041992188,
+                    -28.67462158203125,
+                    0.0
+                ],
+                "Scale": [
+                    300.4942932128906,
+                    84.6847915649414
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 3,
+                "TexKey": "",
+                "UUID": 8750055718966884342,
+                "Width": 103.0,
+                "Height": 22.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "MovementComponent": {
+                "Identity": 1,
+                "Layer": 3,
+                "Direction": [
+                    1.0,
+                    0.0
+                ],
+                "Speed": 45.0,
+                "m_StartPoint": -1400.0,
+                "m_EndPoint": 1400.0,
+                "m_AutoMove": true
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "5th Time"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "TIMEReerwer",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.11999999731779099,
+                "m_Buffer": 0.4059999883174896
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    270.0,
+                    489.9999694824219,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 2,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    9
+                ]
+            },
+            "LeaderBoardComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "LeaderBoardIndex": 5
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "4th"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "5th",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.31200000643730164,
+                "m_Buffer": 0.6060000061988831
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    60.0,
+                    495.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.849056601524353
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "5th"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "8th",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.32600000500679016,
+                "m_Buffer": 0.5709999799728394
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    60.0,
+                    700.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "5th Name"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "---",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.25200000405311584,
+                "m_Buffer": 0.382999986410141
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    170.0,
+                    700.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    10
+                ]
+            },
+            "LeaderBoardComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "LeaderBoardIndex": 8
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "5th Time"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "TIMEReerwer",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.11999999731779099,
+                "m_Buffer": 0.4059999883174896
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    270.0,
+                    700.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.8500000238418579,
+                    0.8500000238418579
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 2,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    9
+                ]
+            },
+            "LeaderBoardComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "LeaderBoardIndex": 8
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 2,
+                "Name": "BGM"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 2,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 2,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "BGM_4": {
+                            "UUID": 6835306825317775653,
+                            "AudioKey": "BGM_4",
+                            "Loop": true,
+                            "Volume": 0.8524199724197388,
+                            "Timerdelay": 210
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 1,
+                "Name": "Cancel"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "UUID": 2573931355622022186,
+                "Text": "Back",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.13699999451637268,
+                "m_Buffer": 0.375
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "m_Translation": [
+                    590.0,
+                    570.9996948242188,
+                    -1.0
+                ],
+                "m_Scale": [
+                    1.0,
+                    1.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 1,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 1,
+                "Name": "Background"
+            },
+            "TransformComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "Scale": [
+                    2665.304443359375,
+                    1407.9071044921875
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "TexKey": "",
+                "UUID": 9224384073630177875,
+                "Width": 576.0,
+                "Height": 320.0,
+                "Alpha": 0.5,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 1,
+                "Name": "VolumeUp"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "TexKey": "",
+                "UUID": 3456336296727830549,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "m_Translation": [
+                    890.0,
+                    379.9999084472656,
+                    -1.0
+                ],
+                "m_Scale": [
+                    74.0,
+                    74.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    22
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "SFX_UI_select1": {
+                            "UUID": 14239087971150781033,
+                            "AudioKey": "SFX_UI_select1",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_select2": {
+                            "UUID": 14984038124800971730,
+                            "AudioKey": "SFX_UI_select2",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_scroll": {
+                            "UUID": 788061936219437223,
+                            "AudioKey": "SFX_UI_scroll",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 10
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 1,
+                "Name": "Sound"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "UUID": 2573931355622022186,
+                "Text": "Fullscreen",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.13699999451637268,
+                "m_Buffer": 0.375
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "m_Translation": [
+                    189.9991455078125,
+                    241.99972534179688,
+                    -1.0
+                ],
+                "m_Scale": [
+                    1.0,
+                    1.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 1,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 1,
+                "Name": "ToggleFullScreen"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "TexKey": "",
+                "UUID": 6026025599018401184,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "m_Translation": [
+                    634.9998779296875,
+                    235.99977111816406,
+                    -1.0
+                ],
+                "m_Scale": [
+                    74.0,
+                    74.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    19
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "SFX_UI_select2": {
+                            "UUID": 14984038124800971730,
+                            "AudioKey": "SFX_UI_select2",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_select1": {
+                            "UUID": 14239087971150781033,
+                            "AudioKey": "SFX_UI_select1",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 1,
+                "Name": "VolumeDown"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "TexKey": "",
+                "UUID": 4159408520669495755,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "m_Translation": [
+                    438.99993896484375,
+                    378.999755859375,
+                    -1.0
+                ],
+                "m_Scale": [
+                    74.0,
+                    74.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    23
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "SFX_UI_select1": {
+                            "UUID": 14239087971150781033,
+                            "AudioKey": "SFX_UI_select1",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_select2": {
+                            "UUID": 14984038124800971730,
+                            "AudioKey": "SFX_UI_select2",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_scroll": {
+                            "UUID": 788061936219437223,
+                            "AudioKey": "SFX_UI_scroll",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 10
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 1,
+                "Name": "Fullscreen"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "UUID": 2573931355622022186,
+                "Text": "Audio",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.13699999451637268,
+                "m_Buffer": 0.375
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "m_Translation": [
+                    221.99855041503906,
+                    389.99969482421875,
+                    -1.0
+                ],
+                "m_Scale": [
+                    1.0,
+                    1.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 1,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 1,
+                "Name": "ResetGame"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "TexKey": "",
+                "UUID": 8445129837738717663,
+                "Width": 433.0,
+                "Height": 146.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "m_Translation": [
+                    635.0,
+                    659.0001220703125,
+                    -1.0
+                ],
+                "m_Scale": [
+                    295.2386474609375,
+                    91.30430603027344
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 3,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 4,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    5,
+                    24
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "SFX_UI_select1": {
+                            "UUID": 14239087971150781033,
+                            "AudioKey": "SFX_UI_select1",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 10
+                        }
+                    },
+                    {
+                        "SFX_UI_select2": {
+                            "UUID": 14984038124800971730,
+                            "AudioKey": "SFX_UI_select2",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    }
+                ]
+            },
+            "UISelectorComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "TexKey": "",
+                "UUID": 10958238532397943822,
+                "Width": 8.0,
+                "Height": 8.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_XOffset": -175.0,
+                "m_YOffset": 0.0,
+                "m_Scale": [
+                    25.0,
+                    25.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 1,
+                "Name": "VolumeNumber"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "UUID": 2573931355622022186,
+                "Text": "10",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.1720000058412552,
+                "m_Buffer": 0.29499998688697815
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "m_Translation": [
+                    650.0,
+                    391.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    1.0,
+                    1.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    18
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "QuitGame"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "Quit Game",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.20000000298023224,
+                "m_Buffer": 0.5
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    770.0,
+                    581.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    1.0,
+                    1.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "LIVE_Level_1",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 3,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Quit Background"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 16310906174768550329,
+                "Width": 1920.0,
+                "Height": 1080.0,
+                "Alpha": 0.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    865.0,
+                    568.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    215.0,
+                    60.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 3,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 4,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    5,
+                    26
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "SFX_UI_select2": {
+                            "UUID": 11007834191666460741,
+                            "AudioKey": "SFX_UI_select2",
+                            "Loop": false,
+                            "Volume": 0.3891400098800659,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_select1": {
+                            "UUID": 15867703115824600222,
+                            "AudioKey": "SFX_UI_select1",
+                            "Loop": false,
+                            "Volume": 0.8039199709892273,
+                            "Timerdelay": 210
+                        }
+                    }
+                ]
+            },
+            "UISelectorComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 10958238532397943822,
+                "Width": 8.0,
+                "Height": 8.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_XOffset": -120.0,
+                "m_YOffset": 0.0,
+                "m_Scale": [
+                    25.0,
+                    25.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 1,
+                "Name": "CancelBackground"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "TexKey": "",
+                "UUID": 0,
+                "Width": 0.0,
+                "Height": 0.0,
+                "Alpha": 0.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "m_Translation": [
+                    635.0,
+                    555.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    125.0,
+                    65.39534759521484
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 3,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 1,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    21,
+                    5
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "SFX_UI_select2": {
+                            "UUID": 14984038124800971730,
+                            "AudioKey": "SFX_UI_select2",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_select1": {
+                            "UUID": 14239087971150781033,
+                            "AudioKey": "SFX_UI_select1",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    }
+                ]
+            },
+            "UISelectorComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "TexKey": "",
+                "UUID": 10958238532397943822,
+                "Width": 8.0,
+                "Height": 8.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_XOffset": -90.0,
+                "m_YOffset": 0.0,
+                "m_Scale": [
+                    25.0,
+                    25.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Credits Background"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 0,
+                "Width": 0.0,
+                "Height": 0.0,
+                "Alpha": 0.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    109.00006103515625,
+                    59.999969482421875,
+                    -1.0
+                ],
+                "m_Scale": [
+                    138.70977783203125,
+                    47.61908721923828
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "Credits",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": true,
+                "m_MiddleLeft": false,
+                "m_Order": 5,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    5
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "SFX_UI_select1": {
+                            "UUID": 14239087971150781033,
+                            "AudioKey": "SFX_UI_select1",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_select2": {
+                            "UUID": 14984038124800971730,
+                            "AudioKey": "SFX_UI_select2",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    }
+                ]
+            },
+            "UISelectorComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 10958238532397943822,
+                "Width": 8.0,
+                "Height": 8.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_XOffset": -90.0,
+                "m_YOffset": 0.0,
+                "m_Scale": [
+                    25.0,
+                    25.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 3,
+                "Name": "clouds"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 3,
+                "Transform": [
+                    339.639892578125,
+                    -214.83657836914063,
+                    0.0
+                ],
+                "Scale": [
+                    300.4942932128906,
+                    84.6847915649414
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 3,
+                "TexKey": "",
+                "UUID": 8750055718966884342,
+                "Width": 103.0,
+                "Height": 22.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "MovementComponent": {
+                "Identity": 1,
+                "Layer": 3,
+                "Direction": [
+                    -1.0,
+                    0.0
+                ],
+                "Speed": 45.0,
+                "m_StartPoint": 1400.0,
+                "m_EndPoint": -1400.0,
+                "m_AutoMove": true
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 3,
+                "Name": "clouds"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 3,
+                "Transform": [
+                    -728.167724609375,
+                    255.64556884765625,
+                    0.0
+                ],
+                "Scale": [
+                    333.882568359375,
+                    94.0942153930664
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 3,
+                "TexKey": "",
+                "UUID": 14600668227933377660,
+                "Width": 382.0,
+                "Height": 41.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "MovementComponent": {
+                "Identity": 1,
+                "Layer": 3,
+                "Direction": [
+                    -1.0,
+                    0.0
+                ],
+                "Speed": 40.0,
+                "m_StartPoint": 1400.0,
+                "m_EndPoint": -1400.0,
+                "m_AutoMove": true
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 6,
+                "Name": "RESET_LEADERBOARD"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 6,
+                "UUID": 2573931355622022186,
+                "Text": "Reset Leaderboard?",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.21799999475479126,
+                "m_Buffer": 0.4779999852180481
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 6,
+                "m_Translation": [
+                    297.000732421875,
+                    227.99998474121094,
+                    -1.0
+                ],
+                "m_Scale": [
+                    2.0,
+                    2.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "CameraComponent": {
+                "m_Active": true,
+                "m_SmoothDampActive": false,
+                "m_CameraClamping": false,
+                "m_CameraClampBtmL": [
+                    0.0,
+                    0.0
+                ],
+                "m_CameraClampTopR": [
+                    0.0,
+                    0.0
+                ],
+                "Identity": 1,
+                "Layer": 5,
+                "CameraType": 0,
+                "m_Fov": 45.0,
+                "m_PerspectiveNear": 0.10000000149011612,
+                "m_PerspectiveFar": 10000.0,
+                "m_OrthoFar": 10000.0,
+                "m_OrthoNear": -10000.0,
+                "m_OrthoSize": 1200.0,
+                "m_CameraDistance": 0.0,
+                "m_SoothingTime": 10.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 5,
+                "Name": "camera"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 5,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 4,
+                "Name": "Background"
+            },
+            "TransformComponent": {
+                "Identity": 1,
+                "Layer": 4,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "Scale": [
+                    2665.304443359375,
+                    1407.9071044921875
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 4,
+                "TexKey": "",
+                "UUID": 9224384073630177875,
+                "Width": 576.0,
+                "Height": 320.0,
+                "Alpha": 0.5,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 4,
+                "Name": "YES_UI"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 4,
+                "UUID": 2573931355622022186,
+                "Text": "YES",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.22699999809265137,
+                "m_Buffer": 0.5400000214576721
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 4,
+                "m_Translation": [
+                    590.999267578125,
+                    412.0001220703125,
+                    -1.0
+                ],
+                "m_Scale": [
+                    1.5,
+                    1.5
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 6,
+                "Name": "YES_BACKGROUND_UI"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 6,
+                "TexKey": "",
+                "UUID": 0,
+                "Width": 0.0,
+                "Height": 0.0,
+                "Alpha": 0.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 6,
+                "m_Translation": [
+                    651.999267578125,
+                    388.99945068359375,
+                    -1.0
+                ],
+                "m_Scale": [
+                    113.08091735839844,
+                    56.97579574584961
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 3,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 1,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    5,
+                    28
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 6,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "SFX_UI_select2": {
+                            "UUID": 14984038124800971730,
+                            "AudioKey": "SFX_UI_select2",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_select1": {
+                            "UUID": 14239087971150781033,
+                            "AudioKey": "SFX_UI_select1",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    }
+                ]
+            },
+            "UISelectorComponent": {
+                "Identity": 1,
+                "Layer": 6,
+                "TexKey": "",
+                "UUID": 10958238532397943822,
+                "Width": 8.0,
+                "Height": 8.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_XOffset": -90.0,
+                "m_YOffset": 0.0,
+                "m_Scale": [
+                    50.0,
+                    50.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 4,
+                "Name": "NO_UI"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 4,
+                "UUID": 2573931355622022186,
+                "Text": "NO",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.22699999809265137,
+                "m_Buffer": 0.5400000214576721
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 4,
+                "m_Translation": [
+                    615.9996948242188,
+                    552.0001220703125,
+                    -1.0
+                ],
+                "m_Scale": [
+                    1.5,
+                    1.5
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 4,
+                "Name": "NO_BACKGROUND_UI"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 4,
+                "TexKey": "",
+                "UUID": 0,
+                "Width": 0.0,
+                "Height": 0.0,
+                "Alpha": 0.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 4,
+                "m_Translation": [
+                    657.000244140625,
+                    527.99951171875,
+                    -1.0
+                ],
+                "m_Scale": [
+                    87.16495513916016,
+                    53.84610366821289
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 3,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 2,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    5,
+                    27
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 4,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "SFX_UI_select2": {
+                            "UUID": 14984038124800971730,
+                            "AudioKey": "SFX_UI_select2",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_select1": {
+                            "UUID": 14239087971150781033,
+                            "AudioKey": "SFX_UI_select1",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    }
+                ]
+            },
+            "UISelectorComponent": {
+                "Identity": 1,
+                "Layer": 4,
+                "TexKey": "",
+                "UUID": 10958238532397943822,
+                "Width": 8.0,
+                "Height": 8.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_XOffset": -80.0,
+                "m_YOffset": 0.0,
+                "m_Scale": [
+                    50.0,
+                    50.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 6,
+                "Name": "Background"
+            },
+            "TransformComponent": {
+                "Identity": 1,
+                "Layer": 6,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "Scale": [
+                    2665.304443359375,
+                    1407.9071044921875
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 6,
+                "TexKey": "",
+                "UUID": 9224384073630177875,
+                "Width": 576.0,
+                "Height": 320.0,
+                "Alpha": 0.5,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 4,
+                "Name": "QUIT_CONFIRMATION"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 4,
+                "UUID": 2573931355622022186,
+                "Text": "Quit Game?",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.21799999475479126,
+                "m_Buffer": 0.4779999852180481
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 4,
+                "m_Translation": [
+                    458.9998779296875,
+                    236.00003051757813,
+                    -1.0
+                ],
+                "m_Scale": [
+                    2.0,
+                    2.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 6,
+                "Name": "YES_UI"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 6,
+                "UUID": 2573931355622022186,
+                "Text": "YES",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.22699999809265137,
+                "m_Buffer": 0.5400000214576721
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 6,
+                "m_Translation": [
+                    591.9998168945313,
+                    412.0001525878906,
+                    -1.0
+                ],
+                "m_Scale": [
+                    1.5,
+                    1.5
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 4,
+                "Name": "YES_BACKGROUND_UI"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 4,
+                "TexKey": "",
+                "UUID": 0,
+                "Width": 0.0,
+                "Height": 0.0,
+                "Alpha": 0.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 4,
+                "m_Translation": [
+                    650.999267578125,
+                    389.9994812011719,
+                    -1.0
+                ],
+                "m_Scale": [
+                    113.08091735839844,
+                    56.97579574584961
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 2,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 1,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    5
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 4,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "SFX_UI_select2": {
+                            "UUID": 14984038124800971730,
+                            "AudioKey": "SFX_UI_select2",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_select1": {
+                            "UUID": 14239087971150781033,
+                            "AudioKey": "SFX_UI_select1",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    }
+                ]
+            },
+            "UISelectorComponent": {
+                "Identity": 1,
+                "Layer": 4,
+                "TexKey": "",
+                "UUID": 10958238532397943822,
+                "Width": 8.0,
+                "Height": 8.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_XOffset": -90.0,
+                "m_YOffset": 0.0,
+                "m_Scale": [
+                    50.0,
+                    50.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 6,
+                "Name": "NO_UI"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 6,
+                "UUID": 2573931355622022186,
+                "Text": "NO",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.22699999809265137,
+                "m_Buffer": 0.5400000214576721
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 6,
+                "m_Translation": [
+                    614.999755859375,
+                    553.0001220703125,
+                    -1.0
+                ],
+                "m_Scale": [
+                    1.5,
+                    1.5
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 6,
+                "Name": "NO_BACKGROUND_UI"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 6,
+                "TexKey": "",
+                "UUID": 0,
+                "Width": 0.0,
+                "Height": 0.0,
+                "Alpha": 0.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 6,
+                "m_Translation": [
+                    653.0001831054688,
+                    527.99951171875,
+                    -1.0
+                ],
+                "m_Scale": [
+                    87.16495513916016,
+                    53.84610366821289
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 3,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 2,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    5,
+                    29
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 6,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "SFX_UI_select2": {
+                            "UUID": 14984038124800971730,
+                            "AudioKey": "SFX_UI_select2",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_select1": {
+                            "UUID": 14239087971150781033,
+                            "AudioKey": "SFX_UI_select1",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    }
+                ]
+            },
+            "UISelectorComponent": {
+                "Identity": 1,
+                "Layer": 6,
+                "TexKey": "",
+                "UUID": 10958238532397943822,
+                "Width": 8.0,
+                "Height": 8.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_XOffset": -80.0,
+                "m_YOffset": 0.0,
+                "m_Scale": [
+                    50.0,
+                    50.0
+                ]
+            }
+        }
+    ]
+}
