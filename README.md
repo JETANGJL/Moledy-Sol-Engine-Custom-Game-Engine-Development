@@ -121,7 +121,7 @@ Moledy was built using our **custom Sol Engine**, featuring an in-house level ed
 ---
 
 ## 📸 Screenshots / Demo
-*(Insert gameplay screenshots, editor photos, or a GIF banner here.)*  
+![Moledy Banner](Moledy-banner2.gif)
 
 ---
 
