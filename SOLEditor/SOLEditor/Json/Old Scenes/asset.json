@@ -1,0 +1,30 @@
+{
+    "textures": {
+        "sunrise": {
+            "UUID" : 1,
+            "filepath": "../SOL/src/SOL/Graphics/texture/sunrise.png"
+        },
+        "spritesheet": {
+            "UUID" : 2,
+            "filepath": "../SOL/src/SOL/Graphics/Sprite/spritesheet.png"
+        }
+    },
+
+    "audios": {
+        "audio1":{
+            "UUID" : 4,
+            "filepath" : "sunrise.wav"
+        },
+        "audio2":{
+            "UUID" : 5,
+            "filepath" : "midnight.wav"
+        }
+    },
+
+    "fonts": {
+        "text":{
+            "UUID" : 6,
+            "filepath" : "../SOL/src/SOL/Graphics/fonts/papercuts.ttf"
+        }
+    }
+}

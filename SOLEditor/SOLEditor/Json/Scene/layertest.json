@@ -1,0 +1,74 @@
+{
+    "Entities": [
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Entity "
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    299.0,
+                    299.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 2589015355245559955,
+                "Width": 1920.0,
+                "Height": 1080.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 1,
+                "Name": "layer2_entity"
+            },
+            "TransformComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "Transform": [
+                    231.05140686035156,
+                    1.2225446701049805,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 17796497143388591739,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        }
+    ]
+}

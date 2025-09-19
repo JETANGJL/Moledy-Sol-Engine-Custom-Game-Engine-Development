@@ -1,0 +1,217 @@
+{
+    "Layers": [
+        {
+            "Layer_id": 0,
+            "Layer_state": 0,
+            "Layer_name": "",
+            "Layer_pos": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "Entities": [
+        {
+            "RigidBody2DComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "Position": [
+                    0.0,
+                    0.0
+                ],
+                "CollisionTag": "",
+                "Width": [
+                    1.0,
+                    1.0
+                ],
+                "Mass": -2147483648.0,
+                "BodyType": 0,
+                "Trigger": false,
+                "Offset": 0.0,
+                "Friction": 0.5,
+                "AdditionalCollidersBool": false
+            },
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Cutscene Image"
+            },
+            "PortalComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "NextScene": "LIVE_Level_1",
+                "PortalMode": 0,
+                "Timer": 3.0,
+                "KeyInput": -1,
+                "TransitionDelay": true,
+                "Delay": 0.0
+            },
+            "TransformComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    960.0,
+                    540.0
+                ],
+                "Rotation": 0.0
+            },
+            "AnimationComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "MaxFrame": 16,
+                "CurrentFrameIndex": 0,
+                "StartingAnimIndex": 0,
+                "Interval": 0.15000000596046448
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 954080906622639053,
+                "Width": 256.0,
+                "Height": 144.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    2,
+                    8
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "SFX_cutscene_4": {
+                            "UUID": 1141470271095781976,
+                            "AudioKey": "SFX_cutscene_4",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Skip Cutscene"
+            },
+            "AnimationComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "MaxFrame": 2,
+                "CurrentFrameIndex": 0,
+                "StartingAnimIndex": 0,
+                "Interval": 0.25
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 10985812933368119761,
+                "Width": 435.0,
+                "Height": 100.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    250.0,
+                    700.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    400.0,
+                    100.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": true,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "CameraComponent": {
+                "m_Active": true,
+                "m_SmoothDampActive": false,
+                "m_CameraClamping": false,
+                "m_CameraClampBtmL": [
+                    0.0,
+                    0.0
+                ],
+                "m_CameraClampTopR": [
+                    0.0,
+                    0.0
+                ],
+                "Identity": 1,
+                "Layer": 0,
+                "CameraType": 0,
+                "m_Fov": 45.0,
+                "m_PerspectiveNear": 0.10000000149011612,
+                "m_PerspectiveFar": 10000.0,
+                "m_OrthoFar": 10000.0,
+                "m_OrthoNear": -10000.0,
+                "m_OrthoSize": 500.0,
+                "m_CameraDistance": 0.0,
+                "m_SoothingTime": 10.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "camera"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            }
+        }
+    ]
+}

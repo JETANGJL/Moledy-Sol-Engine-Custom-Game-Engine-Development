@@ -1,0 +1,650 @@
+{
+    "Emitter": {
+        "Portal": {
+            "m_PositionRange": 89.13999938964844,
+            "m_Life": 3.1730000972747803,
+            "m_EmitParticles": 0.0,
+            "m_Position": [
+                0.0,
+                0.0
+            ],
+            "m_Velocity": [
+                50.0,
+                50.0
+            ],
+            "m_NumberOfParticles": 1.315999984741211,
+            "gravity": 100.0,
+            "m_Index": 217.0,
+            "m_Loop": true,
+            "m_LoopInterval": 0.10000000149011612
+        },
+        "Dig": {
+            "m_PositionRange": 69.37300109863281,
+            "m_Life": 0.6740000247955322,
+            "m_EmitParticles": 0.0,
+            "m_Position": [
+                0.0,
+                0.0
+            ],
+            "m_Velocity": [
+                100.0,
+                100.0
+            ],
+            "m_NumberOfParticles": 20.295000076293945,
+            "gravity": 200.0,
+            "m_Index": 75.0,
+            "m_Loop": false,
+            "m_LoopInterval": 0.10000000149011612
+        },
+        "feecbackPortal": {
+            "m_PositionRange": 95.5469970703125,
+            "m_Life": 5.0,
+            "m_EmitParticles": 0.0,
+            "m_Position": [
+                0.0,
+                0.0
+            ],
+            "m_Velocity": [
+                30.0,
+                100.0
+            ],
+            "m_NumberOfParticles": 20.08099937438965,
+            "gravity": 10.0,
+            "m_Index": 1.0,
+            "m_Loop": false,
+            "m_LoopInterval": 0.10000000149011612
+        },
+        "GemExplode": {
+            "m_PositionRange": 104.7969970703125,
+            "m_Life": 2.878000020980835,
+            "m_EmitParticles": 0.0,
+            "m_Position": [
+                0.0,
+                0.0
+            ],
+            "m_Velocity": [
+                200.0,
+                200.0
+            ],
+            "m_NumberOfParticles": 22.759000778198242,
+            "gravity": 400.0,
+            "m_Index": 1.0,
+            "m_Loop": false,
+            "m_LoopInterval": 0.10000000149011612
+        },
+        "feedbackPortal": {
+            "m_PositionRange": 109.5469970703125,
+            "m_Life": 5.0,
+            "m_EmitParticles": 0.0,
+            "m_Position": [
+                0.0,
+                0.0
+            ],
+            "m_Velocity": [
+                30.0,
+                100.0
+            ],
+            "m_NumberOfParticles": 19.611000061035156,
+            "gravity": 50.0,
+            "m_Index": 1.0,
+            "m_Loop": false,
+            "m_LoopInterval": 0.10000000149011612
+        },
+        "PortalFeedBack": {
+            "m_PositionRange": 10.0,
+            "m_Life": 5.0,
+            "m_EmitParticles": 0.0,
+            "m_Position": [
+                0.0,
+                0.0
+            ],
+            "m_Velocity": [
+                30.0,
+                100.0
+            ],
+            "m_NumberOfParticles": 5.0,
+            "gravity": 10.0,
+            "m_Index": 1.0,
+            "m_Loop": false,
+            "m_LoopInterval": 0.10000000149011612
+        },
+        "Jump": {
+            "m_PositionRange": 42.70500183105469,
+            "m_Life": 0.6000000238418579,
+            "m_EmitParticles": 0.0,
+            "m_Position": [
+                0.0,
+                0.0
+            ],
+            "m_Velocity": [
+                20.0,
+                50.0
+            ],
+            "m_NumberOfParticles": 8.256999969482422,
+            "gravity": 10.0,
+            "m_Index": 1.0,
+            "m_Loop": false,
+            "m_LoopInterval": 0.10000000149011612
+        },
+        "Landed": {
+            "m_PositionRange": 45.65700149536133,
+            "m_Life": 0.8220000267028809,
+            "m_EmitParticles": 0.0,
+            "m_Position": [
+                0.0,
+                -100.0
+            ],
+            "m_Velocity": [
+                30.0,
+                100.0
+            ],
+            "m_NumberOfParticles": 4.427999973297119,
+            "gravity": 100.0,
+            "m_Index": 1.0,
+            "m_Loop": false,
+            "m_LoopInterval": 0.10000000149011612
+        },
+        "": {
+            "m_PositionRange": 10.0,
+            "m_Life": 5.0,
+            "m_EmitParticles": 0.0,
+            "m_Position": [
+                0.0,
+                0.0
+            ],
+            "m_Velocity": [
+                30.0,
+                100.0
+            ],
+            "m_NumberOfParticles": 5.0,
+            "gravity": 10.0,
+            "m_Index": 1.0,
+            "m_Loop": false,
+            "m_LoopInterval": 0.10000000149011612
+        },
+        "Dash": {
+            "m_PositionRange": 10.0,
+            "m_Life": 2.194999933242798,
+            "m_EmitParticles": 0.0,
+            "m_Position": [
+                -100.0,
+                0.0
+            ],
+            "m_Velocity": [
+                0.0,
+                0.0
+            ],
+            "m_NumberOfParticles": 0.36899998784065247,
+            "gravity": 10.0,
+            "m_Index": 1.0,
+            "m_Loop": false,
+            "m_LoopInterval": 0.10000000149011612
+        },
+        "250": {
+            "m_PositionRange": 10.0,
+            "m_Life": 5.0,
+            "m_EmitParticles": 0.0,
+            "m_Position": [
+                0.0,
+                0.0
+            ],
+            "m_Velocity": [
+                30.0,
+                100.0
+            ],
+            "m_NumberOfParticles": 5.0,
+            "gravity": 10.0,
+            "m_Index": 1.0,
+            "m_Loop": false,
+            "m_LoopInterval": 0.10000000149011612
+        },
+        "TestGem": {
+            "m_PositionRange": 104.7969970703125,
+            "m_Life": 2.878000020980835,
+            "m_EmitParticles": 0.0,
+            "m_Position": [
+                0.0,
+                0.0
+            ],
+            "m_Velocity": [
+                1.0,
+                1.0
+            ],
+            "m_NumberOfParticles": 22.759000778198242,
+            "gravity": 3.0,
+            "m_Index": 1.0,
+            "m_Loop": false,
+            "m_LoopInterval": 0.10000000149011612
+        },
+        "Gem": {
+            "m_PositionRange": 104.7969970703125,
+            "m_Life": 2.878000020980835,
+            "m_EmitParticles": 0.0,
+            "m_Position": [
+                0.0,
+                0.0
+            ],
+            "m_Velocity": [
+                200.0,
+                200.0
+            ],
+            "m_NumberOfParticles": 22.759000778198242,
+            "gravity": 400.0,
+            "m_Index": 1.0,
+            "m_Loop": false,
+            "m_LoopInterval": 0.10000000149011612
+        },
+        "Sign": {
+            "m_PositionRange": 50.183998107910156,
+            "m_Life": 2.878000020980835,
+            "m_EmitParticles": 0.0,
+            "m_Position": [
+                0.0,
+                -50.0
+            ],
+            "m_Velocity": [
+                50.0,
+                50.0
+            ],
+            "m_NumberOfParticles": 1.4769999980926514,
+            "gravity": 100.0,
+            "m_Index": 1.0,
+            "m_Loop": true,
+            "m_LoopInterval": 0.10000000149011612
+        }
+    },
+    "Particle": {
+        "Portal": {
+            "Position": [
+                0.0,
+                0.0
+            ],
+            "StartColor": [
+                0.32179921865463257,
+                1.0,
+                0.039215683937072754
+            ],
+            "StartAlpha": 0.20000000298023224,
+            "EndColor": [
+                0.0,
+                1.5894570992713852e-7,
+                0.6666666269302368
+            ],
+            "EndAlpha": 0.20000000298023224,
+            "Velocity": [
+                300.0,
+                100.0
+            ],
+            "Rotation": 0.0,
+            "StartSize": 13.375,
+            "EndSize": 0.0,
+            "LifeTime": 1.0,
+            "LifeRemaining": 0.0,
+            "Active": false
+        },
+        "Dig": {
+            "Position": [
+                0.0,
+                0.0
+            ],
+            "StartColor": [
+                0.2745097875595093,
+                0.14734718203544617,
+                0.02018454670906067
+            ],
+            "StartAlpha": 1.0,
+            "EndColor": [
+                0.7598038911819458,
+                0.7598038911819458,
+                0.7598038911819458
+            ],
+            "EndAlpha": 1.0,
+            "Velocity": [
+                300.0,
+                100.0
+            ],
+            "Rotation": 0.0,
+            "StartSize": 7.039000034332275,
+            "EndSize": 0.0,
+            "LifeTime": 1.0,
+            "LifeRemaining": 0.0,
+            "Active": false
+        },
+        "feecbackPortal": {
+            "Position": [
+                0.0,
+                0.0
+            ],
+            "StartColor": [
+                1.0,
+                0.6764705777168274,
+                0.0
+            ],
+            "StartAlpha": 0.800000011920929,
+            "EndColor": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "EndAlpha": 0.800000011920929,
+            "Velocity": [
+                300.0,
+                100.0
+            ],
+            "Rotation": 0.0,
+            "StartSize": 11.321000099182129,
+            "EndSize": 0.0,
+            "LifeTime": 1.0,
+            "LifeRemaining": 0.0,
+            "Active": false
+        },
+        "GemExplode": {
+            "Position": [
+                0.0,
+                0.0
+            ],
+            "StartColor": [
+                0.0,
+                1.0,
+                1.0
+            ],
+            "StartAlpha": 1.0,
+            "EndColor": [
+                0.9754902124404907,
+                0.9754902124404907,
+                1.0
+            ],
+            "EndAlpha": 1.0,
+            "Velocity": [
+                300.0,
+                100.0
+            ],
+            "Rotation": 0.0,
+            "StartSize": 8.118000030517578,
+            "EndSize": 0.0,
+            "LifeTime": 1.0,
+            "LifeRemaining": 0.0,
+            "Active": false
+        },
+        "feedbackPortal": {
+            "Position": [
+                0.0,
+                0.0
+            ],
+            "StartColor": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "StartAlpha": 1.0,
+            "EndColor": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "EndAlpha": 0.5,
+            "Velocity": [
+                300.0,
+                100.0
+            ],
+            "Rotation": 0.0,
+            "StartSize": 9.185999870300293,
+            "EndSize": 0.0,
+            "LifeTime": 1.0,
+            "LifeRemaining": 0.0,
+            "Active": false
+        },
+        "PortalFeedBack": {
+            "Position": [
+                0.0,
+                0.0
+            ],
+            "StartColor": [
+                1.0,
+                0.8823529481887817,
+                0.0
+            ],
+            "StartAlpha": 1.0,
+            "EndColor": [
+                1.0,
+                0.9653979539871216,
+                0.7058823108673096
+            ],
+            "EndAlpha": 1.0,
+            "Velocity": [
+                300.0,
+                100.0
+            ],
+            "Rotation": 0.0,
+            "StartSize": 10.567000389099121,
+            "EndSize": 0.0,
+            "LifeTime": 1.0,
+            "LifeRemaining": 0.0,
+            "Active": false
+        },
+        "Jump": {
+            "Position": [
+                0.0,
+                0.0
+            ],
+            "StartColor": [
+                0.20588237047195435,
+                0.20006446540355682,
+                0.10697809606790543
+            ],
+            "StartAlpha": 1.0,
+            "EndColor": [
+                0.15686273574829102,
+                0.15514394640922546,
+                0.09842367470264435
+            ],
+            "EndAlpha": 1.0,
+            "Velocity": [
+                300.0,
+                100.0
+            ],
+            "Rotation": 0.0,
+            "StartSize": 9.253000259399414,
+            "EndSize": 0.0,
+            "LifeTime": 1.0,
+            "LifeRemaining": 0.0,
+            "Active": false
+        },
+        "Landed": {
+            "Position": [
+                0.0,
+                0.0
+            ],
+            "StartColor": [
+                0.20588237047195435,
+                0.20006446540355682,
+                0.10697809606790543
+            ],
+            "StartAlpha": 1.0,
+            "EndColor": [
+                0.15686273574829102,
+                0.15514394640922546,
+                0.09842367470264435
+            ],
+            "EndAlpha": 1.0,
+            "Velocity": [
+                300.0,
+                100.0
+            ],
+            "Rotation": 0.0,
+            "StartSize": 9.253000259399414,
+            "EndSize": 0.0,
+            "LifeTime": 1.0,
+            "LifeRemaining": 0.0,
+            "Active": false
+        },
+        "": {
+            "Position": [
+                0.0,
+                0.0
+            ],
+            "StartColor": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "StartAlpha": 1.0,
+            "EndColor": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "EndAlpha": 1.0,
+            "Velocity": [
+                300.0,
+                100.0
+            ],
+            "Rotation": 0.0,
+            "StartSize": 30.0,
+            "EndSize": 0.0,
+            "LifeTime": 1.0,
+            "LifeRemaining": 0.0,
+            "Active": false
+        },
+        "Dash": {
+            "Position": [
+                0.0,
+                0.0
+            ],
+            "StartColor": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "StartAlpha": 1.0,
+            "EndColor": [
+                0.6274509429931641,
+                0.6274509429931641,
+                0.6274509429931641
+            ],
+            "EndAlpha": 0.5,
+            "Velocity": [
+                300.0,
+                100.0
+            ],
+            "Rotation": 0.0,
+            "StartSize": 42.80400085449219,
+            "EndSize": 0.0,
+            "LifeTime": 1.0,
+            "LifeRemaining": 0.0,
+            "Active": false
+        },
+        "250": {
+            "Position": [
+                0.0,
+                0.0
+            ],
+            "StartColor": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "StartAlpha": 1.0,
+            "EndColor": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "EndAlpha": 0.0,
+            "Velocity": [
+                300.0,
+                100.0
+            ],
+            "Rotation": 0.0,
+            "StartSize": 30.0,
+            "EndSize": 0.0,
+            "LifeTime": 1.0,
+            "LifeRemaining": 0.0,
+            "Active": false
+        },
+        "TestGem": {
+            "Position": [
+                0.0,
+                0.0
+            ],
+            "StartColor": [
+                0.0,
+                1.0,
+                1.0
+            ],
+            "StartAlpha": 1.0,
+            "EndColor": [
+                0.9754902124404907,
+                0.9754902124404907,
+                1.0
+            ],
+            "EndAlpha": 1.0,
+            "Velocity": [
+                300.0,
+                100.0
+            ],
+            "Rotation": 0.0,
+            "StartSize": 6.603000164031982,
+            "EndSize": 0.0,
+            "LifeTime": 1.0,
+            "LifeRemaining": 0.0,
+            "Active": false
+        },
+        "Gem": {
+            "Position": [
+                0.0,
+                0.0
+            ],
+            "StartColor": [
+                0.0,
+                0.8529412746429443,
+                1.0
+            ],
+            "StartAlpha": 1.0,
+            "EndColor": [
+                0.9754902124404907,
+                0.9754902124404907,
+                1.0
+            ],
+            "EndAlpha": 1.0,
+            "Velocity": [
+                300.0,
+                100.0
+            ],
+            "Rotation": 0.0,
+            "StartSize": 8.118000030517578,
+            "EndSize": 0.0,
+            "LifeTime": 1.0,
+            "LifeRemaining": 0.0,
+            "Active": false
+        },
+        "Sign": {
+            "Position": [
+                0.0,
+                0.0
+            ],
+            "StartColor": [
+                0.5392156839370728,
+                0.39648211002349854,
+                0.0
+            ],
+            "StartAlpha": 0.20000000298023224,
+            "EndColor": [
+                1.0,
+                0.6332179307937622,
+                0.22058820724487305
+            ],
+            "EndAlpha": 0.5,
+            "Velocity": [
+                300.0,
+                100.0
+            ],
+            "Rotation": 0.0,
+            "StartSize": 10.331999778747559,
+            "EndSize": 0.0,
+            "LifeTime": 1.0,
+            "LifeRemaining": 0.0,
+            "Active": false
+        }
+    }
+}

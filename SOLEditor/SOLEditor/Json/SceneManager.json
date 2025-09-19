@@ -1,0 +1,74 @@
+{
+    "Scenes": [
+        {
+            "LIVE_Tutorial_Walk_1": "./Json/Scene/LIVE_Tutorial_Walk_1.json"
+        },
+        {
+            "LIVE_Tutorial_Jump_2": "./Json/Scene/LIVE_Tutorial_Jump_2.json"
+        },
+        {
+            "Menu": "./Json/Scene/Menu.json"
+        },
+        {
+            "LIVE_Tutorial_Dig_3": "./Json/Scene/LIVE_Tutorial_Dig_3.json"
+        },
+        {
+            "LIVE_Tutorial_Boost_4": "./Json/Scene/LIVE_Tutorial_Boost_4.json"
+        },
+        {
+            "Cutscene_3": "./Json/Scene/Cutscene_3.json"
+        },
+        {
+            "LIVE_Tutorial_Dash_5": "./Json/Scene/LIVE_Tutorial_Dash_5.json"
+        },
+        {
+            "LIVE_Tutorial_Gem_7": "./Json/Scene/LIVE_Tutorial_Gem_7.json"
+        },
+        {
+            "Cutscene_7": "./Json/Scene/Cutscene_7.json"
+        },
+        {
+            "Map_Staging": "./Json/Scene/Map_Staging.json"
+        },
+        {
+            "LIVE_Level_1": "./Json/Scene/LIVE_Level_1.json"
+        },
+        {
+            "testScene1": "./Json/Scene/testScene1.json"
+        },
+        {
+            "ControllerTest": "./Json/Scene/ControllerTest.json"
+        },
+        {
+            "Cutscene_2": "./Json/Scene/Cutscene_2.json"
+        },
+        {
+            "Cutscene_4": "./Json/Scene/Cutscene_4.json"
+        },
+        {
+            "Cutscene_5": "./Json/Scene/Cutscene_5.json"
+        },
+        {
+            "Cutscene_6": "./Json/Scene/Cutscene_6.json"
+        },
+        {
+            "Credits": "./Json/Scene/Credits.json"
+        },
+        {
+            "LIVE_Tutorial_Fox_6": "./Json/Scene/LIVE_Tutorial_Fox_6.json"
+        },
+        {
+            "LIVE_ENTERNAME": "./Json/Scene/LIVE_ENTERNAME.json"
+        },
+        {
+            "LIVE_Level_1_OLD": "./Json/Scene/LIVE_Level_1_OLD.json"
+        },
+        {
+            "Cutscene_1": "./Json/Scene/Cutscene_1.json"
+        },
+        {
+            "DigiPenLogo": "./Json/Scene/DigiPenLogo.json"
+        }
+    ],
+    "StartScene": "DigiPenLogo"
+}

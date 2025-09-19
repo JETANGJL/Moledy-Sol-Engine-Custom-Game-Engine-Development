@@ -1,0 +1,87 @@
+{
+    "Layers": [
+        {
+            "Layer_id": 0,
+            "Layer_state": 0,
+            "Layer_name": "",
+            "Layer_pos": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "Entities": [
+        {
+            "RigidBody2DComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "Position": [
+                    0.0,
+                    0.0
+                ],
+                "CollisionTag": "",
+                "Width": [
+                    960.0,
+                    540.0
+                ],
+                "Mass": -2147483648.0,
+                "BodyType": 0,
+                "Trigger": false,
+                "Offset": 0.0,
+                "Friction": 0.5,
+                "AdditionalCollidersBool": false
+            },
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Cutscene Image"
+            },
+            "PortalComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "NextScene": "Menu",
+                "PortalMode": 0,
+                "Timer": 4.0,
+                "KeyInput": -1,
+                "TransitionDelay": true,
+                "Delay": 0.0
+            },
+            "TransformComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    158.39999389648438,
+                    61.20000076293945
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 1775315328020901821,
+                "Width": 3168.0,
+                "Height": 1224.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    2
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "TransformComponent": {
+        "Identity": 2,
+        "Transform": [
+            50.0,
+            -600.0
+        ],
+        "Scale": [
+            2000.0,
+            300.0
+        ],
+        "Rotation": 0.0
+    },
+    "NameComponent": {
+        "Identity": 2,
+        "Name": "PHYX Floor"
+    },
+    "RigidBody2DComponent": {
+        "Identity": 2,
+        "Position": [
+            50.0,
+            -500.0
+        ],
+        "Width": [
+            2000.0,
+            300.0
+        ],
+        "Mass": 1.0,
+        "BodyType": 0,
+        "Offset": 0.0
+    },
+    "PrimitiveComponent": {
+        "Identity": 2,
+        "PrimitiveID": 1,
+        "Offset": 0.0,
+        "Color": [
+            0.8147236704826355,
+            0.1354770064353943,
+            0.9057919383049011
+        ],
+        "Alpha": 1.0
+    }
+}

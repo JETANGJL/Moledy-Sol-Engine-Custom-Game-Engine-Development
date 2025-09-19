@@ -1,0 +1,88 @@
+{
+    "Entities": [
+        {
+            "TransformComponent": {
+                "Identity": 6,
+                "Transform": [
+                    -200.0,
+                    300.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0
+                ],
+                "Rotation": 0.0
+            },
+            "FontComponent": {
+                "Identity": 6,
+                "UUID": 0,
+                "Text": "SOL ENGINE",
+                "Color": [
+                    1.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "NameComponent": {
+                "Identity": 6,
+                "Name": "SPRITE0"
+            }
+        },
+        {
+            "TransformComponent": {
+                "Identity": 6,
+                "Transform": [
+                    -100.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0
+                ],
+                "Rotation": 0.0
+            },
+            "FontComponent": {
+                "Identity": 6,
+                "UUID": 0,
+                "Text": "MOLEDY",
+                "Color": [
+                    0.0,
+                    1.0,
+                    0.0
+                ]
+            },
+            "NameComponent": {
+                "Identity": 6,
+                "Name": "SPRITE1"
+            }
+        },
+        {
+            "TransformComponent": {
+                "Identity": 6,
+                "Transform": [
+                    -300.0,
+                    -300.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0
+                ],
+                "Rotation": 0.0
+            },
+            "FontComponent": {
+                "Identity": 6,
+                "UUID": 0,
+                "Text": "KAIZOKU OU NI ORE WA NARU",
+                "Color": [
+                    1.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "NameComponent": {
+                "Identity": 6,
+                "Name": "SPRITE2"
+            }
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "Entities": [
+        {
+            "RigidBody2DComponent": {
+                "Identity": 0,
+                "Position": [
+                    0.0,
+                    0.0
+                ],
+                "Width": [
+                    100.0,
+                    100.0
+                ],
+                "Mass": 1.0,
+                "BodyType": 0,
+                "Offset": 0.0
+            },
+            "NameComponent": {
+                "Identity": 0,
+                "Name": "Block0"
+            },
+            "TransformComponent": {
+                "Identity": 0,
+                "Transform": [
+                    -500.0,
+                    -100.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 0,
+                "TexKey": "",
+                "UUID": 8550191236101542225,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "RigidBody2DComponent": {
+                "Identity": 2,
+                "Position": [
+                    0.0,
+                    0.0
+                ],
+                "Width": [
+                    200.0,
+                    200.0
+                ],
+                "Mass": 2.0,
+                "BodyType": 2,
+                "Offset": 0.0
+            },
+            "PrimitiveComponent": {
+                "Identity": 2,
+                "PrimitiveID": 1,
+                "Offset": 0.0,
+                "Color": [
+                    0.8147236704826355,
+                    0.1354770064353943,
+                    0.9057919383049011
+                ],
+                "Alpha": 1.0
+            },
+            "NameComponent": {
+                "Identity": 2,
+                "Name": "PHYX Block"
+            },
+            "TransformComponent": {
+                "Identity": 2,
+                "Transform": [
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    200.0,
+                    200.0
+                ],
+                "Rotation": 0.0
+            },
+            "MovementComponent": {
+                "Identity": 2,
+                "Direction": [
+                    0.0,
+                    0.0
+                ],
+                "Speed": 500.0
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "Entities": [
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Entity "
+            },
+            "EnemyComponent": {
+                "Identity": 1,
+                "MaxDelta": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Transform": [
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "CPPScriptComponent": {
+                "Identity": 1,
+                "CPPScripts": [
+                    0
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "AudioControlMap": []
+            }
+        }
+    ]
+}

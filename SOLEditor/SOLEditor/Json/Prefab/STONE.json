@@ -1,0 +1,40 @@
+{
+    "NameComponent": {
+        "Identity": 1,
+        "Layer": 0,
+        "Name": "Stone_0"
+    },
+    "TransformComponent": {
+        "Identity": 1,
+        "Layer": 0,
+        "Transform": [
+            7100.0,
+            7900.0,
+            0.0
+        ],
+        "Scale": [
+            100.0,
+            100.0
+        ],
+        "Rotation": 0.0
+    },
+    "SpriteComponent": {
+        "Identity": 1,
+        "Layer": 0,
+        "TexKey": "",
+        "UUID": 1000000000000000033,
+        "Width": 16.0,
+        "Height": 16.0,
+        "Alpha": 1.0,
+        "Color": [
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    "TileComponent": {
+        "Identity": 1,
+        "Layer": 0,
+        "TileType": 1
+    }
+}

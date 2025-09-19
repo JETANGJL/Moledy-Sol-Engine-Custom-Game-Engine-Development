@@ -1,0 +1,84 @@
+{
+    "Entities": [
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Entity "
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Transform": [
+                    279.82763671875,
+                    128.25677490234375
+                ],
+                "Scale": [
+                    1.166469931602478,
+                    8.440000534057617
+                ],
+                "Rotation": 0.0
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "UUID": 5255743329228135794,
+                "Text": "0:59",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Entity "
+            },
+            "UIComponent": {
+                "Identity": 1
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Transform": [
+                    200.0,
+                    200.0
+                ],
+                "Scale": [
+                    200.0,
+                    200.0
+                ],
+                "Rotation": 0.0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Entity "
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Transform": [
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "TexKey": "",
+                "UUID": 2589015355245559955,
+                "Width": 1920.0,
+                "Height": 1080.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,246 @@
+{
+    "Layers": [
+        {
+            "Layer_id": 0,
+            "Layer_state": 0,
+            "Layer_name": "main",
+            "Layer_pos": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Layer_id": 1,
+            "Layer_state": 1,
+            "Layer_name": "pause",
+            "Layer_pos": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Layer_id": 2,
+            "Layer_state": 1,
+            "Layer_name": "pause2",
+            "Layer_pos": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Layer_id": 3,
+            "Layer_state": 0,
+            "Layer_name": "random",
+            "Layer_pos": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "Entities": [
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Entity "
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "UISelectorComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 0,
+                "Width": 0.0,
+                "Height": 0.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_XOffset": 0.0,
+                "m_Scale": [
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "RigidBody2DComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "Position": [
+                    0.0,
+                    0.0
+                ],
+                "CollisionTag": "",
+                "Width": [
+                    1.0,
+                    1.0
+                ],
+                "Mass": 3.4028234663852886e38,
+                "BodyType": 0,
+                "Trigger": false,
+                "Offset": 0.0,
+                "Friction": 0.5
+            },
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Entity "
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Entity "
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 1000000000000000002,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Entity "
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "MovementComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "Direction": [
+                    0.0,
+                    0.0
+                ],
+                "Speed": 0.0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 1,
+                "Name": "layer1"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 1,
+                "Transform": [
+                    241.1855010986328,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    171.0,
+                    171.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 1,
+                "TexKey": "",
+                "UUID": 1000000000000000012,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Entity "
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            }
+        }
+    ]
+}

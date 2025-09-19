@@ -1,0 +1,37 @@
+{
+    "TransformComponent": {
+        "Identity": 1,
+        "Transform": [
+            0.0,
+            0.0
+        ],
+        "Scale": [
+            200.0,
+            200.0
+        ],
+        "Rotation": 0.0
+    },
+    "NameComponent": {
+        "Identity": 1,
+        "Name": "Line"
+    },
+    "PrimitiveComponent": {
+        "Identity": 1,
+        "PrimitiveID": 1,
+        "Offset": 0.0,
+        "Color": [
+            0.18838196992874146,
+            0.5468814969062805,
+            0.9928812980651855
+        ],
+        "Alpha": 1.0
+    },
+    "MovementComponent": {
+        "Identity": 1,
+        "Direction": [
+            0.9150136709213257,
+            0.9929226636886597
+        ],
+        "Speed": 500.0
+    }
+}

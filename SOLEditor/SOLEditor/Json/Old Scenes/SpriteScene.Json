@@ -1,0 +1,50 @@
+{
+    "Entities": [
+        {
+            "NameComponent": {
+                "Identity": 3,
+                "Name": "SPRITE0000"
+            },
+            "TransformComponent": {
+                "Identity": 3,
+                "Transform": [
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    200.0,
+                    200.0
+                ],
+                "Rotation": 0.0
+            },
+            "AnimationComponent": {
+                "Identity": 3,
+                "MaxFrame": 4,
+                "CurrentFrameIndex": 0,
+                "StartingAnimIndex": 0,
+                "Interval": 0.20000000298023224
+            },
+            "SpriteComponent": {
+                "Identity": 3,
+                "TexKey": "",
+                "UUID": 8381684271748715706,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "MovementComponent": {
+                "Identity": 3,
+                "Direction": [
+                    0.0,
+                    0.0
+                ],
+                "Speed": 500.0
+            }
+        }
+    ]
+}

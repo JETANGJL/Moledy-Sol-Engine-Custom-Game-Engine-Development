@@ -1,0 +1,25 @@
+{
+    "Entities": [
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Entity 000"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Transform": [
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "TileComponent": {
+                "Identity": 1
+            }
+        }
+    ]
+}

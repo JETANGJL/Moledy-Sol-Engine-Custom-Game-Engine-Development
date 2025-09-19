@@ -1,0 +1,91 @@
+{
+    "Entities": [
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Entity "
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "CPPScriptComponent": {
+                "Identity": -858993460,
+                "CPPScripts": [
+                    0
+                ]
+            }
+        },
+        {
+            "PrimitiveComponent": {
+                "Identity": 1,
+                "PrimitiveID": 3,
+                "Offset": 0.0,
+                "Color": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Alpha": 1.0
+            },
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Entity "
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    690.5360107421875,
+                    358.82342529296875
+                ],
+                "Rotation": 0.0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Entity "
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "TexKey": "",
+                "UUID": 0,
+                "Width": 0.0,
+                "Height": 0.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "m_Translation": [
+                    100.0,
+                    100.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    100.0,
+                    100.0
+                ],
+                "m_Rotation": 0.0
+            }
+        }
+    ]
+}

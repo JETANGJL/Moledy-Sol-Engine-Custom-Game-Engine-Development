@@ -1,0 +1,190 @@
+{
+    "Entities": [
+        {
+            "RigidBody2DComponent": {
+                "Identity": 1,
+                "CollisionTag": "Ground",
+                "Position": [
+                    0.0,
+                    0.0
+                ],
+                "Width": [
+                    100.0,
+                    100.0
+                ],
+                "Mass": 1.0,
+                "BodyType": 0,
+                "Offset": 0.0,
+                "Friction": 0.5
+            },
+            "NameComponent": {
+                "Identity": 1,
+                "Name": "Block_STONE_0"
+            },
+            "TransformComponent": {
+                "Identity": 1,
+                "Transform": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "TexKey": "",
+                "UUID": 17796497143388591739,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "TileComponent": {
+                "Identity": 1,
+                "TileType": 0
+            }
+          },
+        {
+            "NameComponent": {
+                "Identity": 121,
+                "Name": "Mole"
+            },
+            "TransformComponent": {
+                "Identity": 121,
+                "Transform": [
+                    0.0,
+                    100.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "AnimationComponent": {
+                "Identity": 121,
+                "MaxFrame": 4,
+                "CurrentFrameIndex": 1,
+                "StartingAnimIndex": 0,
+                "Interval": 0.019999999552965164
+            },
+            "SpriteComponent": {
+                "Identity": 121,
+                "TexKey": "",
+                "UUID": 11467945179712663620,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "MovementComponent": {
+                "Identity": 121,
+                "Direction": [
+                    0.0,
+                    1.0
+                ],
+                "Speed": 0.0
+            },
+            "PlayerComponent": {
+                "Identity": 121,
+                "TransformAmount": 100,
+                "MoveSpeed": 700
+            },
+            "RigidBody2DComponent": {
+                "Identity": 121,
+                "Position": [
+                    0.0,
+                    100.0
+                ],
+                "Width": [
+                    100.0,
+                    100.0
+                ],
+                "Mass": 1.0,
+                "BodyType": 1,
+                "Offset": 0.0,
+                "Friction": 0.0
+            },
+            "CameraComponent": {
+                "m_Active": true,
+                "m_SmoothDampActive": true,
+                "Identity": -858993460,
+                "m_Fov": 45.0,
+                "m_PerspectiveNear": 0.10000000149011612,
+                "m_PerspectiveFar": 10000.0,
+                "m_OrthoFar": 10000.0,
+                "m_OrthoNear": 0.0,
+                "m_OrthoSize": 834.0,
+                "m_CameraDistance": 10.0,
+                "velocity": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "AudioControlMap": [
+                    {
+                        "SFX_moledy_footstep": {
+                            "UUID": 15575413391220001064,
+                            "AudioKey": "SFX_moledy_footstep",
+                            "Loop": false,
+                            "Volume": 10.107999801635742
+                        }
+                    },
+                    {
+                        "SFX_moledy_digging": {
+                            "UUID": 3462196221081003355,
+                            "AudioKey": "SFX_moledy_digging",
+                            "Loop": false,
+                            "Volume": 20.0
+                        }
+                    },
+                    {
+                        "SFX_moledy_surface": {
+                            "UUID": 16763352948006237721,
+                            "AudioKey": "SFX_moledy_surface",
+                            "Loop": false,
+                            "Volume": 16.98900032043457
+                        }
+                    },
+                    {
+                        "SFX_moledy_jump": {
+                            "UUID": 14215746068348679559,
+                            "AudioKey": "SFX_moledy_jump",
+                            "Loop": false,
+                            "Volume": 15.699000358581543
+                        }
+                    },
+                    {
+                        "SFX_moledy_hurt": {
+                            "UUID": 6970938778499456412,
+                            "AudioKey": "SFX_moledy_hurt",
+                            "Loop": false,
+                            "Volume": 20.0
+                        }
+                    }
+                ]
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "CPPScripts": [
+                    0
+                ]
+            }
+        }
+    ]
+}

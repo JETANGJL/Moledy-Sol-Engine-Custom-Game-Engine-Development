@@ -1,0 +1,225 @@
+{
+    "Entities": [
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Background"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "TexKey": "",
+                "UUID": 13252257219454130485,
+                "Width": 576.0,
+                "Height": 320.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "m_Translation": [
+                    640.0,
+                    398.0,
+                    -2.0
+                ],
+                "m_Scale": [
+                    1280.0,
+                    720.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Quit Text"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "UUID": 12273450916826989459,
+                "Text": "QUIT",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": -1.8036486644772576e-16,
+                "m_Gamma": 0.09799999743700027,
+                "m_Buffer": 0.18799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "m_Translation": [
+                    593.0,
+                    466.6917724609375,
+                    -1.0
+                ],
+                "m_Scale": [
+                    34.148231506347656,
+                    34.148231506347656
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Play Text"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "UUID": 12273450916826989459,
+                "Text": "PLAY",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.46000000834465027,
+                "m_Buffer": 0.531000018119812
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "m_Translation": [
+                    596.9500122070313,
+                    348.74993896484375,
+                    -1.0
+                ],
+                "m_Scale": [
+                    30.96592903137207,
+                    42.7606315612793
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "Latest",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Play Button"
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "m_Translation": [
+                    668.0499877929688,
+                    347.1390686035156,
+                    -1.0
+                ],
+                "m_Scale": [
+                    180.64637756347656,
+                    75.8039779663086
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "Latest",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Quit Background"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "TexKey": "",
+                "UUID": 0,
+                "Width": 0.0,
+                "Height": 0.0,
+                "Alpha": 0.5,
+                "Color": [
+                    1.0,
+                    0.7450979948043823,
+                    0.7450979948043823
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "m_Translation": [
+                    638.1953735351563,
+                    469.78875732421875,
+                    -1.0
+                ],
+                "m_Scale": [
+                    177.4144744873047,
+                    81.0735855102539
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 2
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Play Background"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "TexKey": "",
+                "UUID": 0,
+                "Width": 0.0,
+                "Height": 0.0,
+                "Alpha": 0.5,
+                "Color": [
+                    1.0,
+                    0.7450979948043823,
+                    0.7450979948043823
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "m_Translation": [
+                    640.0,
+                    350.0006103515625,
+                    -1.0
+                ],
+                "m_Scale": [
+                    184.3014678955078,
+                    70.37217712402344
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "Latest",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 0
+            }
+        }
+    ]
+}

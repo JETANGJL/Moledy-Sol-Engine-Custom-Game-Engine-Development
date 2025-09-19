@@ -1,0 +1,37 @@
+{
+    "TransformComponent": {
+        "Identity": 1,
+        "Transform": [
+            0.0,
+            0.0
+        ],
+        "Scale": [
+            200.0,
+            200.0
+        ],
+        "Rotation": 0.0
+    },
+    "NameComponent": {
+        "Identity": 1,
+        "Name": "Circle"
+    },
+    "PrimitiveComponent": {
+        "Identity": 1,
+        "PrimitiveID": 0,
+        "Offset": 0.0,
+        "Color": [
+            0.3612940013408661,
+            0.849129319190979,
+            0.21192432940006256
+        ],
+        "Alpha": 1.0
+    },
+    "MovementComponent": {
+        "Identity": 1,
+        "Direction": [
+            0.8679864406585693,
+            0.3627190589904785
+        ],
+        "Speed": 500.0
+    }
+}

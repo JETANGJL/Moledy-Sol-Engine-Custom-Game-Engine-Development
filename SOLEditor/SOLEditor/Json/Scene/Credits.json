@@ -1,0 +1,1366 @@
+{
+    "Layers": [
+        {
+            "Layer_id": 0,
+            "Layer_state": 0,
+            "Layer_name": "",
+            "Layer_pos": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "Entities": [
+        {
+            "CameraComponent": {
+                "m_Active": true,
+                "m_SmoothDampActive": false,
+                "m_CameraClamping": false,
+                "m_CameraClampBtmL": [
+                    0.0,
+                    0.0
+                ],
+                "m_CameraClampTopR": [
+                    0.0,
+                    0.0
+                ],
+                "Identity": 1,
+                "Layer": 0,
+                "CameraType": 0,
+                "m_Fov": 45.0,
+                "m_PerspectiveNear": 0.0,
+                "m_PerspectiveFar": 0.0,
+                "m_OrthoFar": 10000.0,
+                "m_OrthoNear": -100.0,
+                "m_OrthoSize": 1300.0,
+                "m_CameraDistance": 10.0,
+                "m_SoothingTime": 0.25,
+                "velocity": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Background"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    -9.170000076293945,
+                    7.639999866485596,
+                    -347.2099914550781
+                ],
+                "Scale": [
+                    2665.300048828125,
+                    1407.9100341796875
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 17187549033748953970,
+                "Width": 304.0,
+                "Height": 240.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "BGM_4": {
+                            "UUID": 6835306825317775653,
+                            "AudioKey": "BGM_4",
+                            "Loop": true,
+                            "Volume": 0.8482099771499634,
+                            "Timerdelay": 210
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "The Mole Family"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "THE MOLE FAMILY",
+                "Color": [
+                    1.0,
+                    0.9803921580314636,
+                    0.9803921580314636
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.3009999990463257,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    350.0,
+                    120.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    1.5,
+                    1.5
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Father"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "FATHER",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    350.0,
+                    240.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Mother"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "MOTHER",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    350.0,
+                    300.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Oldest Son"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "OLDEST SON",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    350.0,
+                    360.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Second Son"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "SECOND SON",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    350.0,
+                    420.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Box"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    0.0,
+                    -60.0,
+                    0.0
+                ],
+                "Scale": [
+                    1200.0,
+                    850.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 0,
+                "Width": 0.0,
+                "Height": 0.0,
+                "Alpha": 0.30000001192092896,
+                "Color": [
+                    0.4950980544090271,
+                    0.4950980544090271,
+                    0.4950980544090271
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Youngest Son"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "YOUNGEST SON",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    350.0,
+                    480.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Daughter"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "DAUGHTER",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    350.0,
+                    540.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Adopted Son"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "ADOPTED SON",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    350.0,
+                    600.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Lost Son"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "LOST SON",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    350.0,
+                    660.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Xavier"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "XAVIER LYE",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    700.0,
+                    240.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Jeryl"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "JERYL YONG",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    700.0,
+                    300.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "YJ"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "YONG YUN JING",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    700.0,
+                    360.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Hafiz"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "MUHD DZULHAFIZ",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    700.0,
+                    420.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Jet"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "JET ANG",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    700.0,
+                    480.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Joey"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "JOEY CHONG",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    700.0,
+                    540.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Derrick"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "DERRICK WOO",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    700.0,
+                    600.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Wilmer"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "WILMER LEE",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    700.0,
+                    660.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 0,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": false,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Back"
+            },
+            "FontComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "UUID": 2573931355622022186,
+                "Text": "BACK",
+                "Color": [
+                    0.8823529481887817,
+                    0.5565590858459473,
+                    0.0302768275141716
+                ],
+                "m_Alpha": 0.0,
+                "m_Gamma": 0.4909999966621399,
+                "m_Buffer": 0.43799999356269836
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    100.0,
+                    730.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    0.699999988079071,
+                    0.699999988079071
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "Menu",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 0,
+                "m_TextOrder": 0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Back Backgeound"
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 0,
+                "Width": 0.0,
+                "Height": 0.0,
+                "Alpha": 0.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UIComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "m_Translation": [
+                    135.0,
+                    720.0,
+                    -1.0
+                ],
+                "m_Scale": [
+                    80.0,
+                    40.0
+                ],
+                "m_Rotation": 0.0,
+                "m_NextScene": "Menu",
+                "m_Timer": 0.0,
+                "m_Minutes": 0,
+                "m_Seconds": 0,
+                "m_Miliseconds": 0,
+                "UI_Type": 1,
+                "UI_Button_Type": 0,
+                "m_TopRight": false,
+                "m_BottomRight": false,
+                "m_MiddleLeft": true,
+                "m_Order": 1,
+                "m_TextOrder": 0
+            },
+            "CPPScriptComponent": {
+                "Identity": 0,
+                "Layer": 0,
+                "CPPScripts": [
+                    5
+                ]
+            },
+            "AudioComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "VariableAudio": false,
+                "VariableController": [],
+                "AudioControlMap": [
+                    {
+                        "SFX_UI_select2": {
+                            "UUID": 14984038124800971730,
+                            "AudioKey": "SFX_UI_select2",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_back": {
+                            "UUID": 17265175300835663049,
+                            "AudioKey": "SFX_UI_back",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    },
+                    {
+                        "SFX_UI_select1": {
+                            "UUID": 14239087971150781033,
+                            "AudioKey": "SFX_UI_select1",
+                            "Loop": false,
+                            "Volume": 0.5,
+                            "Timerdelay": 210
+                        }
+                    }
+                ]
+            },
+            "UISelectorComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 10958238532397943822,
+                "Width": 8.0,
+                "Height": 8.0,
+                "Alpha": 1.0,
+                "Color": [
+                    0.8088235259056091,
+                    0.5555413365364075,
+                    0.0911908969283104
+                ],
+                "m_XOffset": -55.0,
+                "m_YOffset": 0.0,
+                "m_Scale": [
+                    25.0,
+                    25.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "XavierMole"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    505.16015625,
+                    334.0900573730469,
+                    0.0
+                ],
+                "Scale": [
+                    136.24017333984375,
+                    136.2399444580078
+                ],
+                "Rotation": 4.932000160217285
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 9547031164854861433,
+                "Width": 160.0,
+                "Height": 160.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "JerylMole"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    -676.2303466796875,
+                    233.46031188964844,
+                    0.0
+                ],
+                "Scale": [
+                    137.0,
+                    137.0
+                ],
+                "Rotation": -11.835997581481934
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 3479173294769869591,
+                "Width": 160.0,
+                "Height": 160.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "YJMole"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    -583.9660034179688,
+                    60.3778190612793,
+                    0.0
+                ],
+                "Scale": [
+                    136.23997497558594,
+                    136.2397003173828
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 13095821576960291009,
+                "Width": 160.0,
+                "Height": 160.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "HafizMole"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    589.1879272460938,
+                    15.313213348388672,
+                    1.6179770231246948
+                ],
+                "Scale": [
+                    145.7767791748047,
+                    197.04872131347656
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 9205716086016348453,
+                "Width": 160.0,
+                "Height": 320.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "JetMole"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    -722.8346557617188,
+                    -255.59886169433594,
+                    0.0
+                ],
+                "Scale": [
+                    136.23997497558594,
+                    136.2397003173828
+                ],
+                "Rotation": 7.890999794006348
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 14185283401817863252,
+                "Width": 160.0,
+                "Height": 160.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "JoeyMole"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    512.5810546875,
+                    -189.18336486816406,
+                    0.0
+                ],
+                "Scale": [
+                    136.23992919921875,
+                    136.2397003173828
+                ],
+                "Rotation": 356.05499267578125
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 12055712261611573069,
+                "Width": 160.0,
+                "Height": 160.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "DerrickMole"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    -540.3184814453125,
+                    -452.8327331542969,
+                    0.0
+                ],
+                "Scale": [
+                    136.23992919921875,
+                    136.2397003173828
+                ],
+                "Rotation": 356.05499267578125
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 5425851978882819772,
+                "Width": 160.0,
+                "Height": 160.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "WilmerMole"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    785.6638793945313,
+                    -456.85797119140625,
+                    0.0
+                ],
+                "Scale": [
+                    136.23992919921875,
+                    136.2397003173828
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 3212707125274933726,
+                "Width": 160.0,
+                "Height": 160.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        }
+    ]
+}

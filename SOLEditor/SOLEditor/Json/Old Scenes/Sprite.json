@@ -1,0 +1,45 @@
+{
+    "RigidBody2DComponent": {
+        "Identity": 0,
+        "Position": [
+            -500.0,
+            -100.0
+        ],
+        "Width": [
+            100.0,
+            100.0
+        ],
+        "Mass": 1.0,
+        "BodyType": 0,
+        "Offset": 0.0
+    },
+    "NameComponent": {
+        "Identity": 0,
+        "Name": "Block0"
+    },
+    "TransformComponent": {
+        "Identity": 0,
+        "Transform": [
+            -500.0,
+            -100.0
+        ],
+        "Scale": [
+            100.0,
+            100.0
+        ],
+        "Rotation": 0.0
+    },
+    "SpriteComponent": {
+        "Identity": 0,
+        "TexKey": "",
+        "UUID": 8550191236101542225,
+        "Width": 16.0,
+        "Height": 16.0,
+        "Alpha": 1.0,
+        "Color": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    }
+}

@@ -1,0 +1,178 @@
+{
+    "Entities": [
+        {
+            "TransformComponent": {
+                "Identity": 2,
+                "Transform": [
+                    50.0,
+                    -600.0
+                ],
+                "Scale": [
+                    2000.0,
+                    300.0
+                ],
+                "Rotation": 0.0
+            },
+            "NameComponent": {
+                "Identity": 2,
+                "Name": "PHYX Floor0"
+            },
+            "RigidBody2DComponent": {
+                "Identity": 2,
+                "Position": [
+                    0.0,
+                    0.0
+                ],
+                "Width": [
+                    2000.0,
+                    300.0
+                ],
+                "Mass": 1.0,
+                "BodyType": 0,
+                "Offset": 0.0
+            },
+            "PrimitiveComponent": {
+                "Identity": 2,
+                "PrimitiveID": 1,
+                "Offset": 0.0,
+                "Color": [
+                    0.8147236704826355,
+                    0.1354770064353943,
+                    0.9057919383049011
+                ],
+                "Alpha": 1.0
+            }
+        },
+        {
+            "TransformComponent": {
+                "Identity": 0,
+                "Transform": [
+                    -329.0,
+                    -304.0
+                ],
+                "Scale": [
+                    200.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "CameraComponent": {
+                "Identity": 0,
+                "Offset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "RigidBody2DComponent": {
+                "Identity": 0,
+                "Position": [
+                    0.0,
+                    0.0
+                ],
+                "Width": [
+                    200.0,
+                    100.0
+                ],
+                "Mass": 1.0,
+                "BodyType": 1,
+                "Offset": 0.0
+            },
+            "PrimitiveComponent": {
+                "Identity": 0,
+                "PrimitiveID": 1,
+                "Offset": 0.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    0.0
+                ],
+                "Alpha": 1.0
+            },
+            "AnimationComponent": {
+                "Identity": 0,
+                "MaxFrame": 4,
+                "CurrentFrameIndex": 0,
+                "StartingAnimIndex": 0,
+                "Interval": 0.20000000298023224
+            },
+            "SpriteComponent": {
+                "Identity": 0,
+                "TexKey": "",
+                "UUID": 8381684271748715706,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Color": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "PlayerComponent": {
+                "Identity": 0
+            },
+            "MovementComponent": {
+                "Identity": 0,
+                "Direction": [
+                    0.0,
+                    0.0
+                ],
+                "Speed": 500.0
+            },
+            "NameComponent": {
+                "Identity": 0,
+                "Name": "Player0001"
+            }
+        },
+        {
+            "TransformComponent": {
+                "Identity": 1,
+                "Transform": [
+                    83.0,
+                    -226.0
+                ],
+                "Scale": [
+                    208.0,
+                    151.0
+                ],
+                "Rotation": 0.0
+            },
+            "PrimitiveComponent": {
+                "Identity": 1,
+                "PrimitiveID": 3,
+                "Offset": 0.0,
+                "Color": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "Alpha": 1.0
+            },
+            "MovementComponent": {
+                "Identity": 1,
+                "Direction": [
+                    0.0,
+                    0.0
+                ],
+                "Speed": 0.0
+            },
+            "RigidBody2DComponent": {
+                "Identity": 1,
+                "Position": [
+                    0.0,
+                    0.0
+                ],
+                "Width": [
+                    100.0,
+                    100.0
+                ],
+                "Mass": 1.0,
+                "BodyType": 1,
+                "Offset": 0.0
+            },
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "box"
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "TransformComponent": {
+        "Identity": 4,
+        "Transform": [
+            11.0,
+            52.0
+        ],
+        "Scale": [
+            1122.0,
+            500.0
+        ],
+        "Rotation": 0.0
+    },
+    "SpriteComponent": {
+        "Identity": 4,
+        "TexKey": "",
+        "UUID": 12963141681701735149,
+        "Width": 1920.0,
+        "Height": 1080.0,
+        "Alpha": 1.0,
+        "Color": [
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    "NameComponent": {
+        "Identity": 4,
+        "Name": "Background00"
+    }
+}

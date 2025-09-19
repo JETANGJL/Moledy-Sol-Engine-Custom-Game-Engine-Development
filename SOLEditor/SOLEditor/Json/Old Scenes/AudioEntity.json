@@ -1,0 +1,31 @@
+{
+    "NameComponent": {
+        "Identity": 7,
+        "Name": "Entity 0"
+    },
+    "TransformComponent": {
+        "Identity": 7,
+        "Transform": [
+            0.0,
+            0.0
+        ],
+        "Scale": [
+            100.0,
+            100.0
+        ],
+        "Rotation": 0.0
+    },
+    "AudioComponent": {
+        "Identity": 1,
+        "AudioControlMap": [
+            {
+                "Digging": {
+                    "UUID": 10954319287322281167,
+                    "AudioKey": "Digging",
+                    "Loop": false,
+                    "Volume": 40.0
+                }
+            }
+        ]
+    }
+}

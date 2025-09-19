@@ -1,0 +1,166 @@
+{
+    "Entities": [
+        {
+            "PrimitiveComponent": {
+                "Identity": 1,
+                "PrimitiveID": 1,
+                "Offset": 0.0,
+                "Color": [
+                    0.18838196992874146,
+                    0.5468814969062805,
+                    0.9928812980651855
+                ],
+                "Alpha": 1.0
+            },
+            "NameComponent": {
+                "Identity": 1,
+                "Name": "Line000"
+            },
+            "TransformComponent": {
+                "Identity": 1,
+                "Transform": [
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    200.0,
+                    200.0
+                ],
+                "Rotation": 0.0
+            },
+            "MovementComponent": {
+                "Identity": 1,
+                "Direction": [
+                    0.9150136709213257,
+                    0.9929226636886597
+                ],
+                "Speed": 500.0
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 3,
+                "Name": "SPRITE00111"
+            },
+            "TransformComponent": {
+                "Identity": 3,
+                "Transform": [
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    200.0,
+                    200.0
+                ],
+                "Rotation": 0.0
+            },
+            "AnimationComponent": {
+                "Identity": 3,
+                "MaxFrame": 4,
+                "CurrentFrameIndex": 0,
+                "StartingAnimIndex": 0,
+                "Interval": 0.20000000298023224
+            },
+            "SpriteComponent": {
+                "Identity": 3,
+                "TexKey": "",
+                "UUID": 8381684271748715706,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Color": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "MovementComponent": {
+                "Identity": 3,
+                "Direction": [
+                    0.0,
+                    0.0
+                ],
+                "Speed": 500.0
+            }
+        },
+        {
+            "RigidBody2DComponent": {
+                "Identity": 0,
+                "Position": [
+                    0.0,
+                    0.0
+                ],
+                "Width": [
+                    200.0,
+                    100.0
+                ],
+                "Mass": 1.0,
+                "BodyType": 1,
+                "Offset": 0.0
+            },
+            "PrimitiveComponent": {
+                "Identity": 0,
+                "PrimitiveID": 1,
+                "Offset": 0.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    0.0
+                ],
+                "Alpha": 1.0
+            },
+            "NameComponent": {
+                "Identity": 0,
+                "Name": "Player000222"
+            },
+            "TransformComponent": {
+                "Identity": 0,
+                "Transform": [
+                    0.0,
+                    10.0
+                ],
+                "Scale": [
+                    200.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "AnimationComponent": {
+                "Identity": 0,
+                "MaxFrame": 4,
+                "CurrentFrameIndex": 0,
+                "StartingAnimIndex": 0,
+                "Interval": 0.20000000298023224
+            },
+            "SpriteComponent": {
+                "Identity": 0,
+                "TexKey": "",
+                "UUID": 8381684271748715706,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Color": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "PlayerComponent": {
+                "Identity": 0
+            },
+            "MovementComponent": {
+                "Identity": 0,
+                "Direction": [
+                    0.0,
+                    0.0
+                ],
+                "Speed": 500.0
+            },
+            "CameraComponent": {
+                "Identity": 0,
+                "Offset": [
+                    0.0,
+                    0.0
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "TransformComponent": {
+        "Identity": 6,
+        "Transform": [
+            0.0,
+            0.0
+        ],
+        "Scale": [
+            30.0,
+            30.0
+        ],
+        "Rotation": 0.0
+    },
+    "FontComponent": {
+        "Identity": 6,
+        "UUID": 0,
+        "Text": "test",
+        "Color": [
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "NameComponent": {
+        "Identity": 6,
+        "Name": "Text0"
+    }
+}

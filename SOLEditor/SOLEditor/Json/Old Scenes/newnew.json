@@ -1,0 +1,134 @@
+{
+    "Entities": [
+        {
+            "RigidBody2DComponent": {
+                "Identity": 1,
+                "Position": [
+                    1.0,
+                    -180.0
+                ],
+                "Width": [
+                    20.0,
+                    20.0
+                ],
+                "Mass": -2147483648.0,
+                "BodyType": 0,
+                "Offset": 0.0,
+                "Friction": 0.5
+            },
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Entity "
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Transform": [
+                    1.0734158754348755,
+                    -180.64971923828125
+                ],
+                "Scale": [
+                    20.0,
+                    20.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "TexKey": "",
+                "UUID": 8550191236101542225,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "CameraComponent": {
+                "Identity": 1,
+                "Offset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "RigidBody2DComponent": {
+                "Identity": 1,
+                "Position": [
+                    0.0,
+                    0.0
+                ],
+                "Width": [
+                    1.0,
+                    1.0
+                ],
+                "Mass": -2147483648.0,
+                "BodyType": 1,
+                "Offset": 0.0,
+                "Friction": 0.5
+            },
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Entity "
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Transform": [
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "TexKey": "",
+                "UUID": 2684371701459729765,
+                "Width": 32.0,
+                "Height": 32.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Name": "Entity "
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Transform": [
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "TexKey": "",
+                "UUID": 2589015355245559955,
+                "Width": 1920.0,
+                "Height": 1080.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,407 @@
+{
+    "Entities": [
+        {
+            "NameComponent": {
+                "Identity": 4,
+                "Name": "Background0000"
+            },
+            "TransformComponent": {
+                "Identity": 4,
+                "Transform": [
+                    -426.0,
+                    269.0
+                ],
+                "Scale": [
+                    265.0,
+                    224.0
+                ],
+                "Rotation": 38.708221435546875
+            },
+            "SpriteComponent": {
+                "Identity": 4,
+                "TexKey": "",
+                "UUID": 12963141681701735149,
+                "Width": 1920.0,
+                "Height": 1080.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 4,
+                "Name": "Background0011"
+            },
+            "TransformComponent": {
+                "Identity": 4,
+                "Transform": [
+                    505.0,
+                    356.0
+                ],
+                "Scale": [
+                    170.0,
+                    198.0
+                ],
+                "Rotation": -44.62953186035156
+            },
+            "SpriteComponent": {
+                "Identity": 4,
+                "TexKey": "",
+                "UUID": 8381684271748715706,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 4,
+                "Name": "Background0022"
+            },
+            "TransformComponent": {
+                "Identity": 4,
+                "Transform": [
+                    -483.0,
+                    -342.0
+                ],
+                "Scale": [
+                    225.0,
+                    225.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 4,
+                "TexKey": "",
+                "UUID": 2589015355245559955,
+                "Width": 1920.0,
+                "Height": 1080.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 4,
+                "Name": "Background0033"
+            },
+            "TransformComponent": {
+                "Identity": 4,
+                "Transform": [
+                    -95.0,
+                    375.0
+                ],
+                "Scale": [
+                    99.0,
+                    164.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 4,
+                "TexKey": "",
+                "UUID": 8550191236101542225,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 4,
+                "Name": "Background0044"
+            },
+            "TransformComponent": {
+                "Identity": 4,
+                "Transform": [
+                    560.0,
+                    -299.0
+                ],
+                "Scale": [
+                    69.0,
+                    188.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 4,
+                "TexKey": "",
+                "UUID": 17796497143388591739,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 4,
+                "Name": "Background0055"
+            },
+            "TransformComponent": {
+                "Identity": 4,
+                "Transform": [
+                    -156.0,
+                    -397.0
+                ],
+                "Scale": [
+                    151.0,
+                    113.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 4,
+                "TexKey": "",
+                "UUID": 15228067439046178116,
+                "Width": 300.0,
+                "Height": 111.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 4,
+                "Name": "Background0066"
+            },
+            "TransformComponent": {
+                "Identity": 4,
+                "Transform": [
+                    -251.0,
+                    32.0
+                ],
+                "Scale": [
+                    217.0,
+                    295.0
+                ],
+                "Rotation": -13.945566177368164
+            },
+            "SpriteComponent": {
+                "Identity": 4,
+                "TexKey": "",
+                "UUID": 2684371701459729765,
+                "Width": 32.0,
+                "Height": 32.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 4,
+                "Name": "Background0077"
+            },
+            "TransformComponent": {
+                "Identity": 4,
+                "Transform": [
+                    219.0,
+                    413.0
+                ],
+                "Scale": [
+                    110.0,
+                    133.0
+                ],
+                "Rotation": 13.401325225830078
+            },
+            "SpriteComponent": {
+                "Identity": 4,
+                "TexKey": "",
+                "UUID": 12351910969447536018,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 4,
+                "Name": "Background0088"
+            },
+            "TransformComponent": {
+                "Identity": 4,
+                "Transform": [
+                    411.0,
+                    -371.0
+                ],
+                "Scale": [
+                    146.0,
+                    115.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 4,
+                "TexKey": "",
+                "UUID": 7963172511562798859,
+                "Width": 214.0,
+                "Height": 301.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 4,
+                "Name": "Background0099"
+            },
+            "TransformComponent": {
+                "Identity": 4,
+                "Transform": [
+                    19.0,
+                    -411.0
+                ],
+                "Scale": [
+                    179.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 4,
+                "TexKey": "",
+                "UUID": 10357696025328292595,
+                "Width": 8.0,
+                "Height": 8.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 4,
+                "Name": "Background001010"
+            },
+            "TransformComponent": {
+                "Identity": 4,
+                "Transform": [
+                    77.0,
+                    61.0
+                ],
+                "Scale": [
+                    164.0,
+                    203.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 4,
+                "TexKey": "",
+                "UUID": 1471846093569226044,
+                "Width": 300.0,
+                "Height": 242.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 4,
+                "Name": "Background001111"
+            },
+            "TransformComponent": {
+                "Identity": 4,
+                "Transform": [
+                    212.0,
+                    -338.0
+                ],
+                "Scale": [
+                    145.0,
+                    257.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 4,
+                "TexKey": "",
+                "UUID": 10667396110746788399,
+                "Width": 32.0,
+                "Height": 32.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 4,
+                "Name": "Background001212"
+            },
+            "TransformComponent": {
+                "Identity": 4,
+                "Transform": [
+                    502.0,
+                    118.0
+                ],
+                "Scale": [
+                    206.0,
+                    258.0
+                ],
+                "Rotation": -22.83954429626465
+            },
+            "SpriteComponent": {
+                "Identity": 4,
+                "TexKey": "",
+                "UUID": 13458489366407193909,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        }
+    ]
+}

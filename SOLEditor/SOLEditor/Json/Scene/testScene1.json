@@ -1,0 +1,597 @@
+{
+    "Layers": [
+        {
+            "Layer_id": 0,
+            "Layer_state": 0,
+            "Layer_name": "",
+            "Layer_pos": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "Entities": [
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Bush 1"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    -315.61724853515625,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 6624255301380956215,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Bush 2"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    -123.996337890625,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    200.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 5161359351500356300,
+                "Width": 32.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Flower 1"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    35.031700134277344,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    200.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "AnimationComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "MaxFrame": 4,
+                "CurrentFrameIndex": 0,
+                "StartingAnimIndex": 0,
+                "Interval": 0.20000000298023224
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 1527011850702526220,
+                "Width": 32.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Flower 2"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    203.2847442626953,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "AnimationComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "MaxFrame": 4,
+                "CurrentFrameIndex": 0,
+                "StartingAnimIndex": 0,
+                "Interval": 0.20000000298023224
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 7467390410597166822,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Flower 3"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    349.547607421875,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "AnimationComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "MaxFrame": 4,
+                "CurrentFrameIndex": 0,
+                "StartingAnimIndex": 0,
+                "Interval": 0.20000000298023224
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 4257294194449952222,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Flower 4"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    498.28839111328125,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "AnimationComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "MaxFrame": 4,
+                "CurrentFrameIndex": 0,
+                "StartingAnimIndex": 0,
+                "Interval": 0.20000000298023224
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 3167441594378456808,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Grass 1"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    646.5572509765625,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "AnimationComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "MaxFrame": 4,
+                "CurrentFrameIndex": 0,
+                "StartingAnimIndex": 0,
+                "Interval": 0.20000000298023224
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 15486199809112865339,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Grass 2"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    797.8552856445313,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "AnimationComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "MaxFrame": 4,
+                "CurrentFrameIndex": 0,
+                "StartingAnimIndex": 0,
+                "Interval": 0.20000000298023224
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 14600259561369584239,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Grass 3"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    953.0477294921875,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "AnimationComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "MaxFrame": 4,
+                "CurrentFrameIndex": 0,
+                "StartingAnimIndex": 0,
+                "Interval": 0.20000000298023224
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 3791193188638292362,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Stone 1"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    1136.8394775390625,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 4730781023561653125,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Stone 2"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    1333.0626220703125,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 8320511753980437825,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Stone 3"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    1585.4576416015625,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 10335412938413687533,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Sign 1"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    -318.68798828125,
+                    -240.20436096191406,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 14278520437700504076,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Campfire 1"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    -109.4884033203125,
+                    -240.20436096191406,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 11626893247880595310,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "NameComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Name": "Scaffolding 1"
+            },
+            "TransformComponent": {
+                "Identity": 7,
+                "Layer": 0,
+                "Transform": [
+                    116.47518920898438,
+                    -240.20436096191406,
+                    0.0
+                ],
+                "Scale": [
+                    100.0,
+                    100.0
+                ],
+                "Rotation": 0.0
+            },
+            "SpriteComponent": {
+                "Identity": 1,
+                "Layer": 0,
+                "TexKey": "",
+                "UUID": 1693267209153385827,
+                "Width": 16.0,
+                "Height": 16.0,
+                "Alpha": 1.0,
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        }
+    ]
+}

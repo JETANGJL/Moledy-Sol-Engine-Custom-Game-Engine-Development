@@ -1,0 +1,38 @@
+{
+    "TransformComponent": {
+        "Transform": [
+            0.0,
+            10.0
+        ],
+        "Scale": [
+            200.0,
+            100.0
+        ],
+        "Rotation": 0.0
+    },
+    "MovementComponent": {
+        "Direction": [
+            0.0,
+            0.0
+        ],
+        "Speed": 500.0
+    },
+    "PrimitiveComponent": {
+        "PrimitiveID": 3,
+        "Offset": 3.0,
+        "Color": [
+            3.0,
+            3.0,
+            3.0
+        ],
+        "Alpha": 0.3
+    },
+    "SpriteComponent": {
+        "TexKey": "MoleEnenmy",
+        "Color": [
+            0.44,
+            0.44,
+            0.44
+        ]
+    }
+}
